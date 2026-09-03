@@ -145,6 +145,7 @@
     "location.text":
       "Find us on Google Maps. Open the map and get directions to the office easily.",
     "location.name": "Oxygen concentrator rental — Jangbadisaparati",
+    "location.address": "Building 1, Vazisubani Settlement, Tbilisi 0153, Georgia",
     "location.openMaps": "Open in Google Maps",
     "location.viewMap": "View on map",
     "location.directions": "Get directions",
