@@ -394,43 +394,50 @@ p {
 .hero-grid {
   position: relative;
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  grid-template-areas:
-    "intro card"
-    "details card";
-  gap: 1.1rem 2.5rem;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.95fr);
+  gap: 1.5rem 3rem;
   align-items: center;
+  min-height: min(62vh, 560px);
 }
 
-.hero-intro { grid-area: intro; }
-.hero-card { grid-area: card; align-self: center; }
-.hero-details { grid-area: details; }
-
-.hero-intro .lead {
-  margin-bottom: 0;
+.hero-intro {
+  max-width: 34rem;
 }
 
-.hero-details .check-list {
-  margin-top: 0.35rem;
+.hero .eyebrow {
+  margin-bottom: 0.65rem;
 }
 
 .hero h1 {
   color: #fff;
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
+  font-size: clamp(2.2rem, 4.2vw, 3.35rem);
+  line-height: 1.12;
 }
 
 .hero .lead {
   color: rgba(255, 255, 255, 0.88);
-  max-width: 560px;
-  margin-bottom: 1.4rem;
+  max-width: 28rem;
+  margin-bottom: 1.6rem;
+  font-size: 1.12rem;
 }
 
-.hero-subtitle {
-  display: inline-block;
-  color: #9fe4ec;
-  font-weight: 700;
-  margin-bottom: 0.75rem;
-  font-size: 1.02rem;
+.hero-cta {
+  margin-top: 0.25rem;
+}
+
+.hero-visual {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-visual img {
+  width: min(100%, 460px);
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+  filter: drop-shadow(0 28px 48px rgba(0, 0, 0, 0.28));
 }
 
 .check-list {
@@ -466,52 +473,6 @@ p {
 .check-list.dark .check-icon {
   background: rgba(26, 143, 110, 0.12);
   color: var(--success);
-}
-
-.hero-card {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 28px;
-  padding: 1rem;
-  backdrop-filter: blur(8px);
-  box-shadow: var(--shadow-lg);
-}
-
-.hero-card img {
-  width: 100%;
-  height: 380px;
-  object-fit: contain;
-  border-radius: 20px;
-  background: #fff;
-}
-
-.hero-badge {
-  display: flex;
-  justify-content: space-between;
-  gap: 0.75rem;
-  margin-top: 0.9rem;
-  flex-wrap: wrap;
-}
-
-.hero-badge span {
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  padding: 0.55rem 0.8rem;
-  border-radius: 999px;
-  font-size: 0.82rem;
-  font-weight: 700;
-}
-
-.hero-contact {
-  margin-top: 1.5rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-}
-
-.hero-contact strong {
-  display: block;
-  margin-bottom: 0.55rem;
-  color: #fff;
 }
 
 .phone-links {
@@ -574,6 +535,43 @@ p {
   color: var(--navy);
   font-size: 0.95rem;
   margin-bottom: 0.15rem;
+}
+
+.offer-teaser .section-head {
+  margin-bottom: 1.5rem;
+}
+
+.offer-teaser .btn-row {
+  margin-top: 1.25rem;
+}
+
+.teaser-prices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  max-width: 640px;
+}
+
+.teaser-price {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.teaser-price strong {
+  color: var(--navy);
+  font-size: 1rem;
+}
+
+.teaser-price span,
+.teaser-price em {
+  color: var(--teal);
+  font-weight: 800;
+  font-size: 1.2rem;
+  font-style: normal;
 }
 
 .feature-pill span {
@@ -1249,24 +1247,22 @@ p {
   }
 
   .hero-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    min-height: 0;
+    gap: 1.25rem;
   }
 
-  .hero-intro,
-  .hero-card,
-  .hero-details {
-    grid-area: auto;
+  .hero-visual {
+    order: -1;
+  }
+
+  .hero-visual img {
+    width: min(100%, 320px);
+    max-height: 340px;
   }
 
   .feature-strip .container,
   .why-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .hero-card img {
-    height: 260px;
   }
 
   .split-media img {
@@ -1296,78 +1292,44 @@ p {
 
   .section { padding: 3.25rem 0; }
 
-  /* Mobile: headline + subtitle, then compact product image, then CTA */
   .hero {
-    padding: 1.1rem 0 2.2rem;
+    padding: 1.35rem 0 2.4rem;
   }
 
   .hero-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 0.85rem;
+    gap: 0.9rem;
   }
 
-  .hero-intro {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    gap: 0.35rem;
-  }
-
-  /* Mobile order: headline -> short subtitle -> image below */
-  .hero-intro .hero-subtitle {
-    display: none;
+  .hero-visual {
+    order: 0;
   }
 
   .hero h1 {
-    order: 1;
-    font-size: clamp(1.4rem, 6vw, 1.8rem);
-    margin-bottom: 0;
+    font-size: clamp(1.55rem, 7vw, 2rem);
+    margin-bottom: 0.45rem;
   }
 
-  .hero-intro .lead {
-    order: 2;
-    font-size: 0.95rem;
-    margin-bottom: 0.15rem;
+  .hero .lead {
+    font-size: 0.98rem;
+    margin-bottom: 1rem;
   }
 
-  .hero-card {
-    padding: 0.55rem;
-    border-radius: 18px;
-    background: rgba(255, 255, 255, 0.14);
+  .hero-visual img {
+    width: min(72vw, 220px);
+    max-height: 220px;
   }
 
-  .hero-card img {
-    height: min(30vw, 175px);
-    min-height: 135px;
-    object-fit: contain;
-    background: linear-gradient(180deg, #ffffff 0%, #f3f8fb 100%);
-    border-radius: 14px;
+  .hero-cta {
+    width: 100%;
   }
 
-  .hero-badge {
+  .hero-cta .btn {
+    flex: 1;
     justify-content: center;
-    gap: 0.4rem;
-    margin-top: 0.55rem;
   }
 
-  .hero-badge span {
-    padding: 0.35rem 0.55rem;
-    font-size: 0.7rem;
-  }
-
-  .hero-details .check-list {
-    gap: 0.45rem;
-    margin: 0.35rem 0 1rem;
-  }
-
-  .hero-details .check-list li {
-    font-size: 0.9rem;
-  }
-
-  .hero-contact {
-    margin-top: 0.85rem;
-    padding-top: 0.9rem;
+  .teaser-prices {
+    grid-template-columns: 1fr;
   }
 
   .feature-strip {
