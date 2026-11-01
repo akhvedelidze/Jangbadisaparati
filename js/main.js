@@ -64,7 +64,7 @@
     "page.qiraoba.moreLink": "Rental details →",
     "page.qiraoba.ctaTitle": "Need an oxygen concentrator today?",
     "page.qiraoba.ctaText":
-      "Call or message us on WhatsApp — we will help you choose a device and arrange delivery in Tbilisi.",
+      "Call or message us — we will help you choose a device and arrange delivery in Tbilisi.",
     "page.gayidva.h1": "Oxygen concentrator sales in Tbilisi",
     "page.gayidva.lead":
       "Buy a 5 or 10-liter concentrator for home use — warranty included.",
@@ -168,7 +168,7 @@
       "The appropriate device and oxygen flow parameters should be selected according to the doctor’s recommendation.",
     "cta.title": "Need an oxygen machine?",
     "cta.text":
-      "Contact us about oxygen concentrator rental, purchase, and delivery in Tbilisi.",
+      "Contact us about rental, purchase, and delivery in Tbilisi.",
     "location.eyebrow": "Location",
     "location.title": "Our office",
     "location.text":

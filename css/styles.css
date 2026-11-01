@@ -1124,32 +1124,7 @@ p {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* Floating actions */
-.float-whatsapp {
-  position: fixed;
-  right: 1.1rem;
-  bottom: 5.5rem;
-  z-index: 1100;
-  width: 58px;
-  height: 58px;
-  border-radius: 50%;
-  background: var(--whatsapp);
-  color: #fff;
-  display: grid;
-  place-items: center;
-  box-shadow: 0 12px 28px rgba(37, 211, 102, 0.4);
-  transition: 0.2s ease;
-}
-
-.float-whatsapp:hover {
-  transform: scale(1.06);
-}
-
-.float-whatsapp svg {
-  width: 30px;
-  height: 30px;
-}
-
+/* Single contact pair on mobile */
 .mobile-cta {
   display: none;
   position: fixed;
@@ -1166,8 +1141,9 @@ p {
 
 .mobile-cta .btn {
   flex: 1;
-  padding: 0.8rem 0.6rem;
-  font-size: 0.88rem;
+  padding: 0.8rem 0.55rem;
+  font-size: 0.86rem;
+  justify-content: center;
 }
 
 /* Mobile nav drawer */
@@ -1235,8 +1211,6 @@ p {
 @media (max-width: 980px) {
   .nav { display: none; }
   .menu-toggle { display: inline-flex; }
-  .header-actions .btn-primary { display: none; }
-
   .hero-grid,
   .split,
   .accessories,
@@ -1319,13 +1293,9 @@ p {
     max-height: 220px;
   }
 
+  /* Sticky bar is the only Call / WhatsApp pair on mobile */
   .hero-cta {
-    width: 100%;
-  }
-
-  .hero-cta .btn {
-    flex: 1;
-    justify-content: center;
+    display: none;
   }
 
   .teaser-prices {
@@ -1365,9 +1335,7 @@ p {
 
   .mobile-cta { display: flex; }
 
-  .float-whatsapp { bottom: 5.2rem; }
-
-  .footer { padding-bottom: 7.5rem; }
+  .footer { padding-bottom: 6.5rem; }
 
   .btn-row .btn { width: 100%; }
 }
@@ -1375,8 +1343,7 @@ p {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .product-card,
-  .btn,
-  .float-whatsapp {
+  .btn {
     transition: none;
   }
 }
