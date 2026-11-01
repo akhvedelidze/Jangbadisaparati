@@ -2,9 +2,15 @@
   const PHONE_WA = "995592155499";
 
   const en = {
-    "meta.title": "Oxygen Concentrator Rental and Sales | Jangbadisaparati.ge",
+    "meta.title": "Oxygen Concentrators — Rental and Sales in Tbilisi | Jangbadisaparati.ge",
     "meta.description":
-      "Oxygen concentrator rental and sales. 5 and 10-liter devices, home delivery, installation, new accessories and 24/7 technical support. Call: 592 15 54 99.",
+      "Oxygen concentrator rental and sales in Tbilisi. 5 and 10-liter devices, home delivery, installation, new accessories and 24/7 technical support. Call: 592 15 54 99.",
+    "meta.title.qiraoba": "Oxygen Concentrator Rental in Tbilisi | Jangbadisaparati.ge",
+    "meta.description.qiraoba":
+      "Rent an oxygen concentrator in Tbilisi. 5 L — 10 GEL/day, 10 L — 15 GEL/day. Home delivery, installation, accessories and 24/7 support. Call: 592 15 54 99.",
+    "meta.title.gayidva": "Oxygen Concentrator Sales in Tbilisi | Jangbadisaparati.ge",
+    "meta.description.gayidva":
+      "Buy a 5 or 10-liter oxygen concentrator in Tbilisi. Home use, warranty included. Call: 592 15 54 99.",
     "top.support": "24/7 technical support",
     "nav.rental": "Rental",
     "nav.sales": "Sales",
@@ -13,10 +19,11 @@
     "nav.faq": "FAQ",
     "nav.contact": "Contact",
     "nav.call": "Call",
-    "logo.tag": "Sales & rental",
-    "hero.kicker": "Oxygen concentrator — home delivery and installation",
-    "hero.title": "Oxygen equipment sales and rental",
-    "hero.lead": "Reliable oxygen machines for home use.",
+    "logo.tag": "Rental & sales",
+    "hero.kicker": "Oxygen concentrator in Tbilisi — home delivery and installation",
+    "hero.title": "Oxygen concentrators — rental and sales",
+    "hero.lead":
+      "Oxygen concentrator rental and sales for home use. Delivery available in Tbilisi.",
     "hero.c1": "On-site delivery",
     "hero.c2": "Device installation",
     "hero.c3": "Sterilized device and new accessories",
@@ -44,10 +51,35 @@
     "strip.support.title": "24/7 support",
     "strip.support.text": "Anytime you need help",
     "rental.eyebrow": "Rental",
-    "rental.title": "Oxygen concentrator rental",
+    "rental.title": "Oxygen concentrator rental in Tbilisi",
     "rental.subtitle": "Need an oxygen machine temporarily?",
     "rental.lead":
-      "We offer high-quality oxygen concentrator rental for home use. The devices are designed for long-term continuous operation and provide a stable oxygen supply.",
+      "We offer oxygen concentrator rental in Tbilisi for home use. The devices are designed for long-term continuous operation and provide a stable oxygen supply.",
+    "page.qiraoba.h1": "Oxygen concentrator rental in Tbilisi",
+    "page.qiraoba.lead":
+      "Reliable oxygen concentrator rental for home use — with delivery, installation and 24/7 technical support.",
+    "page.qiraoba.c1": "Rental for 5 and 10-liter devices",
+    "page.qiraoba.c2": "Delivery and installation in Tbilisi",
+    "page.qiraoba.c3": "Sterilized device and new accessories",
+    "page.qiraoba.howTitle": "How rental works",
+    "page.qiraoba.howLead":
+      "Renting an oxygen concentrator in Tbilisi is simple: call or message us, we help you choose the right model and deliver it to your address.",
+    "page.qiraoba.priceNote":
+      "Prices are listed as daily rental. Contact us for longer periods.",
+    "page.qiraoba.faqTitle": "Frequently asked rental questions",
+    "page.qiraoba.toSales": "Need to buy a device? See sales →",
+    "page.qiraoba.moreLink": "Details: oxygen concentrator rental →",
+    "page.qiraoba.ctaTitle": "Need an oxygen concentrator today?",
+    "page.qiraoba.ctaText":
+      "Call or message us on WhatsApp — we will help you choose a device and arrange delivery in Tbilisi.",
+    "page.gayidva.h1": "Oxygen concentrator sales in Tbilisi",
+    "page.gayidva.lead":
+      "Buy a 5 or 10-liter oxygen concentrator for long-term home use. Warranty and consultation included.",
+    "page.gayidva.c3": "Help choosing the right model",
+    "page.gayidva.modelsTitle": "Available devices",
+    "page.gayidva.moreLink": "Details: oxygen concentrator sales →",
+    "page.gayidva.rentHint": "Need it temporarily? See oxygen concentrator rental →",
+    "page.gayidva.ctaTitle": "Want to buy an oxygen concentrator?",
     "rental.includesTitle": "The device comes with:",
     "rental.i1": "Pulse oximeter",
     "rental.i2": "Oxygen cannula",
@@ -71,6 +103,9 @@
     "sales.title": "Oxygen concentrator sales",
     "sales.lead":
       "If you need an oxygen concentrator for a longer period, you can purchase a device.",
+    "faq.qPrice": "How much does oxygen concentrator rental cost?",
+    "faq.aPrice":
+      "5-liter device rental is 10 GEL per day, 10-liter is 15 GEL per day. Necessary accessories are included.",
     "sales.f1": "For home use",
     "sales.f2": "Easy to operate",
     "sales.f3": "Continuous operation capability",
@@ -123,7 +158,8 @@
     "faq.eyebrow": "FAQ",
     "faq.title": "Frequently asked questions",
     "faq.q1": "Will you deliver the device to my location?",
-    "faq.a1": "Yes. On-site delivery and installation are available.",
+    "faq.a1":
+      "Yes. In Tbilisi, on-site delivery and installation of an oxygen concentrator are available.",
     "faq.q2": "Will you explain how to use the device?",
     "faq.a2":
       "Yes. When the device is handed over, you will receive detailed instructions on how to use it.",
@@ -139,7 +175,7 @@
       "The appropriate device and oxygen flow parameters should be selected according to the doctor’s recommendation.",
     "cta.title": "Need an oxygen machine?",
     "cta.text":
-      "Contact us for information about rental, purchase, and home delivery of oxygen concentrators.",
+      "Contact us about oxygen concentrator rental, purchase, and delivery in Tbilisi.",
     "location.eyebrow": "Location",
     "location.title": "Our office",
     "location.text":
@@ -149,7 +185,7 @@
     "location.openMaps": "Open in Google Maps",
     "location.viewMap": "View on map",
     "location.directions": "Get directions",
-    "footer.tag": "Oxygen concentrator sales and rental",
+    "footer.tag": "Oxygen concentrator rental and sales in Tbilisi",
     "footer.services": "Home delivery • Installation • 24/7 support",
     "footer.nav": "Navigation",
     "footer.contact": "Contact",
@@ -157,12 +193,16 @@
     "footer.warning":
       "Medical disclaimer: The information on this website is for informational purposes only and does not replace a doctor’s consultation. Use oxygen therapy and oxygen flow settings only as prescribed by a physician.",
     "footer.copy": "© Jangbadisaparati.ge — All rights reserved",
-    "img.concentrator": "Oxygen concentrator",
+    "img.concentrator": "Oxygen concentrator in Tbilisi",
+    "img.rent5": "5-liter oxygen concentrator rental in Tbilisi",
+    "img.rent10": "10-liter oxygen concentrator rental in Tbilisi",
+    "img.sale5": "5-liter oxygen concentrator for sale",
+    "img.sale10": "10-liter oxygen concentrator for sale",
     "img.delivery": "Home delivery",
     "img.install": "Installation and consultation",
     "img.clean": "Clean prepared device",
     "img.support": "Technical support",
-    "img.accessories": "Medical accessories",
+    "img.accessories": "Oxygen concentrator rental accessories",
     "img.when": "Respiratory care",
   };
 
@@ -196,21 +236,33 @@
     kaCache["meta.title"] = document.title;
   }
 
+  function metaKey(base) {
+    const page = document.documentElement.dataset.page;
+    if (page && page !== "home" && en[`${base}.${page}`]) {
+      return `${base}.${page}`;
+    }
+    return base;
+  }
+
   function applyLanguage(lang) {
     currentLang = lang === "en" ? "en" : "ka";
     localStorage.setItem("site-lang", currentLang);
     document.documentElement.lang = currentLang;
 
+    const titleKey = metaKey("meta.title");
     document.title =
-      currentLang === "en" ? en["meta.title"] : kaCache["meta.title"] || en["meta.title"];
+      currentLang === "en"
+        ? en[titleKey] || en["meta.title"]
+        : kaCache["meta.title"] || en[titleKey] || en["meta.title"];
 
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
+      const descKey = metaKey("meta.description");
       metaDesc.setAttribute(
         "content",
         currentLang === "en"
-          ? en["meta.description"]
-          : kaCache["meta.description"] || en["meta.description"]
+          ? en[descKey] || en["meta.description"]
+          : kaCache["meta.description"] || en[descKey] || en["meta.description"]
       );
     }
 
