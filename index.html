@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ka" data-page="home">
+<html lang="ka" class="no-js">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +7,9 @@
   <meta name="description" content="ჟანგბადის აპარატების გაქირავება და გაყიდვა თბილისში. 5 და 10-ლიტრიანი კონცენტრატორები, ადგილზე მიტანა, დამონტაჟება და 24/7 მხარდაჭერა. დარეკეთ: 592 15 54 99." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://jangbadisaparati.ge/" />
+  <link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/" />
+  <link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="ka_GE" />
   <meta property="og:locale:alternate" content="en_US" />
@@ -15,6 +18,8 @@
   <meta property="og:url" content="https://jangbadisaparati.ge/" />
   <meta property="og:site_name" content="Jangbadisaparati.ge" />
   <meta property="og:image" content="https://jangbadisaparati.ge/images/concentrator-1.png" />
+  <meta property="og:image:width" content="1024" />
+  <meta property="og:image:height" content="1024" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://jangbadisaparati.ge/images/concentrator-1.png" />
   <meta name="theme-color" content="#0a3d56" />
@@ -29,6 +34,18 @@
   {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://jangbadisaparati.ge/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "მთავარი",
+            "item": "https://jangbadisaparati.ge/"
+          }
+        ]
+      },
       {
         "@type": "MedicalBusiness",
         "@id": "https://jangbadisaparati.ge/#business",
@@ -125,13 +142,13 @@
   <div class="topbar">
     <div class="container">
       <div class="topbar-phones">
-        <a href="tel:+995592155499">📞 592 15 54 99</a>
-        <a href="tel:+995544441240">📞 544 44 12 40</a>
+        <a href="tel:+995592155499" data-track="tel">📞 592 15 54 99</a>
+        <a href="tel:+995544441240" data-track="tel">📞 544 44 12 40</a>
       </div>
       <div class="topbar-social">
         <a href="https://www.tiktok.com/@jangbadis" target="_blank" rel="noopener noreferrer" aria-label="TikTok">TikTok</a>
         <a href="https://www.facebook.com/profile.php?id=100063621636222" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a>
-        <span class="topbar-note" data-i18n="top.support">24/7 ტექნიკური მხარდაჭერა</span>
+        <span class="topbar-note">24/7 ტექნიკური მხარდაჭერა</span>
       </div>
     </div>
   </div>
@@ -142,25 +159,25 @@
         <span class="logo-mark">O₂</span>
         <span class="logo-text">
           <strong>Jangbadisaparati.ge</strong>
-          <span data-i18n="logo.tag">გაქირავება და გაყიდვა</span>
+          <span>გაქირავება და გაყიდვა</span>
         </span>
       </a>
 
-      <nav class="nav" aria-label="Main">
-        <a href="/qiraoba/" data-i18n="nav.rental">გაქირავება</a>
-        <a href="/gayidva/" data-i18n="nav.sales">გაყიდვა</a>
-        <a href="/#why" data-i18n="nav.why">რატომ ჩვენ</a>
-        <a href="/#about" data-i18n="nav.about">აპარატის შესახებ</a>
-        <a href="/#faq" data-i18n="nav.faq">კითხვები</a>
-        <a href="/#contact" data-i18n="nav.contact">კონტაქტი</a>
+      <nav class="nav" aria-label="მთავარი ნავიგაცია">
+        <a href="/qiraoba/">გაქირავება</a>
+        <a href="/gayidva/">გაყიდვა</a>
+        <a href="/tsodna/">ცოდნა</a>
+        <a href="/kitkhvebi/">კითხვები</a>
+        <a href="/shesakheb/">ჩვენ შესახებ</a>
+        <a href="/kontakti/">კონტაქტი</a>
       </nav>
 
       <div class="header-actions">
-        <div class="lang-switch" role="group" aria-label="Language">
-          <button type="button" data-lang="ka" class="active" aria-pressed="true">KA</button>
-          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        <div class="lang-switch" role="group" aria-label="ენა">
+          <span class="lang-link active" lang="ka" aria-current="true">KA</span>
+          <a class="lang-link" href="/en/" hreflang="en" lang="en" title="English">EN</a>
         </div>
-        <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false">
+        <button class="menu-toggle" type="button" aria-label="მენიუ" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
       </div>
@@ -169,35 +186,43 @@
 
   <div class="mobile-nav">
     <div class="mobile-nav-panel">
-      <a href="/qiraoba/" data-i18n="nav.rental">გაქირავება</a>
-      <a href="/gayidva/" data-i18n="nav.sales">გაყიდვა</a>
-      <a href="/#why" data-i18n="nav.why">რატომ ჩვენ</a>
-      <a href="/#about" data-i18n="nav.about">აპარატის შესახებ</a>
-      <a href="/#faq" data-i18n="nav.faq">კითხვები</a>
-      <a href="/#contact" data-i18n="nav.contact">კონტაქტი</a>
+      <a href="/qiraoba/">გაქირავება</a>
+      <a href="/gayidva/">გაყიდვა</a>
+      <a href="/tsodna/">ცოდნა</a>
+      <a href="/kitkhvebi/">კითხვები</a>
+      <a href="/shesakheb/">ჩვენ შესახებ</a>
+      <a href="/kontakti/">კონტაქტი</a>
+      <a class="lang-link-mobile" href="/en/" hreflang="en" lang="en">English (EN)</a>
     </div>
   </div>
 
   <main id="top">
+    <nav class="breadcrumb" aria-label="ნავიგაციის გზა">
+      <div class="container">
+        <ol>
+        <li><span aria-current="page">მთავარი</span></li>
+        </ol>
+      </div>
+    </nav>
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-intro">
-          <h1 data-i18n="hero.title">ჟანგბადის აპარატები</h1>
-          <p class="lead" data-i18n="hero.lead">გაქირავება და გაყიდვა თბილისში — ადგილზე მიტანითა და დამონტაჟებით.</p>
+          <h1>ჟანგბადის აპარატები</h1>
+          <p class="lead">გაქირავება და გაყიდვა თბილისში — ადგილზე მიტანითა და დამონტაჟებით.</p>
           <div class="btn-row hero-cta">
-            <a class="btn btn-primary" href="tel:+995592155499">
+            <a class="btn btn-primary" href="tel:+995592155499" data-track="tel">
               <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.5 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.7 21 3 13.3 3 4c0-.6.4-1 1-1h3.5c.5 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .7-.2 1L6.6 10.8z" fill="currentColor"/></svg>
-              <span data-i18n="btn.call">დარეკვა</span>
+              <span>დარეკვა</span>
             </a>
-            <a class="btn btn-whatsapp" data-wa="general" data-wa-ka="გამარჯობა, მაინტერესებს ჟანგბადის აპარატის გაქირავება / გაყიდვა." href="https://wa.me/995592155499" target="_blank" rel="noopener">
+            <a class="btn btn-whatsapp" href="https://wa.me/995592155499?text=%E1%83%92%E1%83%90%E1%83%9B%E1%83%90%E1%83%A0%E1%83%AF%E1%83%9D%E1%83%91%E1%83%90%2C%20%E1%83%9B%E1%83%90%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%A0%E1%83%94%E1%83%A1%E1%83%94%E1%83%91%E1%83%A1%20%E1%83%9F%E1%83%90%E1%83%9C%E1%83%92%E1%83%91%E1%83%90%E1%83%93%E1%83%98%E1%83%A1%20%E1%83%90%E1%83%9E%E1%83%90%E1%83%A0%E1%83%90%E1%83%A2%E1%83%98%E1%83%A1%20%E1%83%92%E1%83%90%E1%83%A5%E1%83%98%E1%83%A0%E1%83%90%E1%83%95%E1%83%94%E1%83%91%E1%83%90%20%2F%20%E1%83%92%E1%83%90%E1%83%A7%E1%83%98%E1%83%93%E1%83%95%E1%83%90." target="_blank" rel="noopener" data-track="whatsapp" data-channel="whatsapp">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 2.8 17.4L2 22l4.7-.8A11 11 0 1 0 20.5 3.5zm-8.5 17a9.1 9.1 0 0 1-4.6-1.3l-.3-.2-2.8.5.5-2.7-.2-.3a9.1 9.1 0 1 1 7.4 4zm5-6.8c-.3-.1-1.6-.8-1.8-.9s-.4-.1-.6.1-.7.9-.9 1-.3.2-.6.1a7.4 7.4 0 0 1-2.2-1.4 8.2 8.2 0 0 1-1.5-1.9c-.2-.3 0-.4.1-.6l.4-.5c.1-.2.2-.3.3-.5s0-.4 0-.5-.6-1.4-.8-1.9-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3a2.3 2.3 0 0 0-.7 1.7 4 4 0 0 0 .8 2.1c.1.2 1.5 2.4 3.7 3.3a12.7 12.7 0 0 0 1.3.5 3.1 3.1 0 0 0 1.4.1 2.4 2.4 0 0 0 1.6-1.1 2 2 0 0 0 .1-1.1c-.1-.1-.2-.2-.5-.3z"/></svg>
-              <span data-i18n="btn.whatsapp">WhatsApp-ზე მოწერა</span>
+              <span>WhatsApp-ზე მოწერა</span>
             </a>
           </div>
         </div>
 
         <div class="hero-visual">
-          <img src="images/concentrator-1.png" alt="ჟანგბადის აპარატი კონცენტრატორი თბილისში" data-i18n-alt="img.concentrator" width="800" height="1000" />
+          <picture><source type="image/webp" srcset="images/webp/concentrator-1.webp" /><img src="images/concentrator-1.png" alt="ჟანგბადის აპარატი კონცენტრატორი თბილისში" width="1024" height="1024" decoding="async" fetchpriority="high" /></picture>
         </div>
       </div>
     </section>
@@ -207,29 +232,29 @@
         <article class="feature-pill">
           <div class="icon">🚚</div>
           <div>
-            <strong data-i18n="strip.delivery.title">ადგილზე მიტანა</strong>
-            <span data-i18n="strip.delivery.text">მოსახერხებელ მისამართზე</span>
+            <strong>ადგილზე მიტანა</strong>
+            <span>მოსახერხებელ მისამართზე</span>
           </div>
         </article>
         <article class="feature-pill">
           <div class="icon">🛠️</div>
           <div>
-            <strong data-i18n="strip.install.title">მონტაჟი</strong>
-            <span data-i18n="strip.install.text">და გამოყენების ინსტრუქცია</span>
+            <strong>მონტაჟი</strong>
+            <span>და გამოყენების ინსტრუქცია</span>
           </div>
         </article>
         <article class="feature-pill">
           <div class="icon">✨</div>
           <div>
-            <strong data-i18n="strip.clean.title">სუფთა აპარატი</strong>
-            <span data-i18n="strip.clean.text">ახალი აქსესუარებით</span>
+            <strong>სუფთა აპარატი</strong>
+            <span>ახალი აქსესუარებით</span>
           </div>
         </article>
         <article class="feature-pill">
           <div class="icon">📞</div>
           <div>
-            <strong data-i18n="strip.support.title">24/7 მხარდაჭერა</strong>
-            <span data-i18n="strip.support.text">ნებისმიერ დროს</span>
+            <strong>24/7 მხარდაჭერა</strong>
+            <span>ნებისმიერ დროს</span>
           </div>
         </article>
       </div>
@@ -238,23 +263,23 @@
     <section class="section" id="rental">
       <div class="container offer-teaser">
         <div class="section-head">
-          <div class="eyebrow" data-i18n="rental.eyebrow">გაქირავება</div>
-          <h2 data-i18n="rental.title">ჟანგბადის აპარატების გაქირავება თბილისში</h2>
-          <p class="lead" data-i18n="rental.subtitle">გჭირდებათ ჟანგბადის აპარატი დროებით?</p>
-          <p data-i18n="rental.lead">ადგილზე მიტანა, დამონტაჟება, ახალი აქსესუარები და 24/7 მხარდაჭერა.</p>
+          <div class="eyebrow">გაქირავება</div>
+          <h2>ჟანგბადის აპარატების გაქირავება თბილისში</h2>
+          <p class="lead">გჭირდებათ ჟანგბადის აპარატი დროებით?</p>
+          <p>ადგილზე მიტანა, დამონტაჟება, ახალი აქსესუარები და 24/7 მხარდაჭერა.</p>
         </div>
         <div class="teaser-prices">
           <div class="teaser-price">
-            <strong data-i18n="rental.card5">5-ლიტრიანი ჟანგბადის კონცენტრატორი</strong>
-            <span><span data-i18n="rental.price5">10 ლარი</span> <em data-i18n="rental.perDay">/ დღე</em></span>
+            <strong><a href="/qiraoba/5-litri/">5-ლიტრიანი ჟანგბადის კონცენტრატორი</a></strong>
+            <span><span>10 ლარი</span> <em>/ დღე</em></span>
           </div>
           <div class="teaser-price">
-            <strong data-i18n="rental.card10">10-ლიტრიანი ჟანგბადის კონცენტრატორი</strong>
-            <span><span data-i18n="rental.price10">15 ლარი</span> <em data-i18n="rental.perDay">/ დღე</em></span>
+            <strong><a href="/qiraoba/10-litri/">10-ლიტრიანი ჟანგბადის კონცენტრატორი</a></strong>
+            <span><span>15 ლარი</span> <em>/ დღე</em></span>
           </div>
         </div>
         <div class="btn-row">
-          <a class="btn btn-primary" href="/qiraoba/" data-i18n="page.qiraoba.moreLink">გაქირავების დეტალები →</a>
+          <a class="btn btn-primary" href="/qiraoba/">გაქირავების დეტალები →</a>
         </div>
       </div>
     </section>
@@ -262,23 +287,23 @@
     <section class="section section-alt" id="sales">
       <div class="container offer-teaser">
         <div class="section-head">
-          <div class="eyebrow" data-i18n="sales.eyebrow">გაყიდვა</div>
-          <h2 data-i18n="sales.title">ჟანგბადის აპარატების გაყიდვა</h2>
-          <p class="lead" data-i18n="sales.lead">ხანგრძლივი გამოყენებისთვის — შეიძინეთ 5 ან 10-ლიტრიანი კონცენტრატორი.</p>
+          <div class="eyebrow">გაყიდვა</div>
+          <h2>ჟანგბადის აპარატების გაყიდვა</h2>
+          <p class="lead">ხანგრძლივი გამოყენებისთვის — შეიძინეთ 5 ან 10-ლიტრიანი კონცენტრატორი.</p>
         </div>
         <div class="teaser-prices">
           <div class="teaser-price">
-            <strong data-i18n="rental.card5">5-ლიტრიანი ჟანგბადის კონცენტრატორი</strong>
-            <span data-i18n="sales.price5">1 300 ლარი</span>
+            <strong><a href="/gayidva/5-litri/">5-ლიტრიანი ჟანგბადის კონცენტრატორი</a></strong>
+            <span>1 300 ლარი</span>
           </div>
           <div class="teaser-price">
-            <strong data-i18n="rental.card10">10-ლიტრიანი ჟანგბადის კონცენტრატორი</strong>
-            <span data-i18n="sales.price10">2 200 ლარი</span>
+            <strong><a href="/gayidva/10-litri/">10-ლიტრიანი ჟანგბადის კონცენტრატორი</a></strong>
+            <span>2 200 ლარი</span>
           </div>
         </div>
-        <p class="warranty-note" data-i18n="sales.warranty">გარანტია: 6 თვე</p>
+        <p class="warranty-note">გარანტია: 6 თვე — <a href="/garantia/">დეტალები</a></p>
         <div class="btn-row">
-          <a class="btn btn-primary" href="/gayidva/" data-i18n="page.gayidva.moreLink">გაყიდვის დეტალები →</a>
+          <a class="btn btn-primary" href="/gayidva/">გაყიდვის დეტალები →</a>
         </div>
       </div>
     </section>
@@ -286,36 +311,36 @@
     <section class="section" id="why">
       <div class="container">
         <div class="section-head">
-          <div class="eyebrow" data-i18n="why.eyebrow">უპირატესობები</div>
-          <h2 data-i18n="why.title">რატომ ჩვენ?</h2>
+          <div class="eyebrow">უპირატესობები</div>
+          <h2>რატომ ჩვენ?</h2>
         </div>
         <div class="why-grid">
           <article class="why-card">
-            <img src="images/courier.jpg" alt="ადგილზე მიტანა" data-i18n-alt="img.delivery" width="1000" height="700" loading="lazy" />
+            <picture><source type="image/webp" srcset="images/webp/courier.webp" /><img src="images/courier.jpg" alt="ადგილზე მიტანა" loading="lazy" width="1200" height="1500" decoding="async" /></picture>
             <div class="content">
-              <h3 data-i18n="why.d.title">ადგილზე მიტანა</h3>
-              <p data-i18n="why.d.text">აპარატს მოგიტანთ თქვენთვის მოსახერხებელ მისამართზე.</p>
+              <h3>ადგილზე მიტანა</h3>
+              <p>აპარატს მოგიტანთ თქვენთვის მოსახერხებელ მისამართზე.</p>
             </div>
           </article>
           <article class="why-card">
-            <img src="images/hero2.jpg" alt="მონტაჟი და კონსულტაცია" data-i18n-alt="img.install" width="1000" height="700" loading="lazy" />
+            <picture><source type="image/webp" srcset="images/webp/hero2.webp" /><img src="images/hero2.jpg" alt="მონტაჟი და კონსულტაცია" loading="lazy" width="1920" height="2890" decoding="async" /></picture>
             <div class="content">
-              <h3 data-i18n="why.i.title">მონტაჟი და ინსტრუქცია</h3>
-              <p data-i18n="why.i.text">ადგილზე დავამონტაჟებთ აპარატს და აგიხსნით მისი სწორად გამოყენების წესს.</p>
+              <h3>მონტაჟი და ინსტრუქცია</h3>
+              <p>ადგილზე დავამონტაჟებთ აპარატს და აგიხსნით მისი სწორად გამოყენების წესს.</p>
             </div>
           </article>
           <article class="why-card">
-            <img src="images/clean-hands.jpg" alt="სუფთა და მომზადებული აპარატი" data-i18n-alt="img.clean" width="1000" height="700" loading="lazy" />
+            <picture><source type="image/webp" srcset="images/webp/clean-hands.webp" /><img src="images/clean-hands.jpg" alt="სუფთა და მომზადებული აპარატი" loading="lazy" width="1200" height="800" decoding="async" /></picture>
             <div class="content">
-              <h3 data-i18n="why.c.title">სუფთა და მომზადებული აპარატი</h3>
-              <p data-i18n="why.c.text">გაქირავებამდე აპარატი გადის შესაბამის წმენდასა და სტერილიზაციას და გადმოგეცემათ ახალი საჭირო აქსესუარებით.</p>
+              <h3>სუფთა და მომზადებული აპარატი</h3>
+              <p>გაქირავებამდე აპარატი გადის შესაბამის წმენდასა და სტერილიზაციას და გადმოგეცემათ ახალი საჭირო აქსესუარებით.</p>
             </div>
           </article>
           <article class="why-card">
-            <img src="images/phone-support.jpg" alt="ტექნიკური მხარდაჭერა" data-i18n-alt="img.support" width="1000" height="700" loading="lazy" />
+            <picture><source type="image/webp" srcset="images/webp/phone-support.webp" /><img src="images/phone-support.jpg" alt="ტექნიკური მხარდაჭერა" loading="lazy" width="1200" height="797" decoding="async" /></picture>
             <div class="content">
-              <h3 data-i18n="why.s.title">24/7 ტექნიკური მხარდაჭერა</h3>
-              <p data-i18n="why.s.text">თუ აპარატის გამოყენებისას ტექნიკური დახმარება დაგჭირდებათ, შეგიძლიათ დაგვიკავშირდეთ ნებისმიერ დროს.</p>
+              <h3>24/7 ტექნიკური მხარდაჭერა</h3>
+              <p>თუ აპარატის გამოყენებისას ტექნიკური დახმარება დაგჭირდებათ, შეგიძლიათ დაგვიკავშირდეთ ნებისმიერ დროს.</p>
             </div>
           </article>
         </div>
@@ -325,19 +350,19 @@
     <section class="section section-alt" id="about">
       <div class="container split">
         <div class="split-media">
-          <img src="images/concentrator-4.png" alt="ჟანგბადის კონცენტრატორი" data-i18n-alt="img.concentrator" width="800" height="1000" loading="lazy" />
-          <div class="caption" data-i18n="about.caption">სახლის პირობებისთვის განკუთვნილი აპარატი</div>
+          <picture><source type="image/webp" srcset="images/webp/concentrator-4.webp" /><img src="images/concentrator-4.png" alt="ჟანგბადის კონცენტრატორი" loading="lazy" width="800" height="800" decoding="async" /></picture>
+          <div class="caption">სახლის პირობებისთვის განკუთვნილი აპარატი</div>
         </div>
         <div>
-          <div class="eyebrow" data-i18n="about.eyebrow">ინფორმაცია</div>
-          <h2 data-i18n="about.title">რა არის ჟანგბადის კონცენტრატორი?</h2>
-          <p data-i18n="about.p1">ჟანგბადის კონცენტრატორი არის სამედიცინო მოწყობილობა, რომელიც ოთახის ჰაერიდან გამოყოფს აზოტს და პაციენტს აწვდის მაღალი კონცენტრაციის ჟანგბადს.</p>
-          <p data-i18n="about.p2">ჟანგბადის ბალონისგან განსხვავებით, კონცენტრატორს არ სჭირდება პერიოდული დამუხტვა — მოწყობილობა მუშაობს ელექტროენერგიაზე და შეუძლია ჟანგბადის უწყვეტი მიწოდება.</p>
-          <p data-i18n="about.p3">აპარატის მიერ მიწოდებული ჟანგბადის კონცენტრაცია, მოწყობილობის რეჟიმისა და მოდელის მიხედვით, შეიძლება დაახლოებით 90–95% იყოს.</p>
+          <div class="eyebrow">ინფორმაცია</div>
+          <h2>რა არის ჟანგბადის კონცენტრატორი?</h2>
+          <p>ჟანგბადის კონცენტრატორი არის სამედიცინო მოწყობილობა, რომელიც ოთახის ჰაერიდან გამოყოფს აზოტს და პაციენტს აწვდის მაღალი კონცენტრაციის ჟანგბადს.</p>
+          <p>ჟანგბადის ბალონისგან განსხვავებით, კონცენტრატორს არ სჭირდება პერიოდული დამუხტვა — მოწყობილობა მუშაობს ელექტროენერგიაზე და შეუძლია ჟანგბადის უწყვეტი მიწოდება.</p>
+          <p>აპარატის მიერ მიწოდებული ჟანგბადის კონცენტრაცია, მოწყობილობის რეჟიმისა და მოდელის მიხედვით, შეიძლება დაახლოებით 90–95% იყოს.</p>
           <div class="stat-row">
-            <div class="stat"><strong data-i18n="about.s1">90–95%</strong><span data-i18n="about.s1l">O₂ კონცენტრაცია</span></div>
-            <div class="stat"><strong data-i18n="about.s2">24/7</strong><span data-i18n="about.s2l">მხარდაჭერა</span></div>
-            <div class="stat"><strong data-i18n="about.s3">5 & 10 ლ</strong><span data-i18n="about.s3l">აპარატები</span></div>
+            <div class="stat"><strong>90–95%</strong><span>O₂ კონცენტრაცია</span></div>
+            <div class="stat"><strong>24/7</strong><span>მხარდაჭერა</span></div>
+            <div class="stat"><strong>5 &amp; 10 ლ</strong><span>აპარატები</span></div>
           </div>
         </div>
       </div>
@@ -346,83 +371,122 @@
     <section class="section" id="when">
       <div class="container split">
         <div>
-          <div class="eyebrow" data-i18n="when.eyebrow">გამოყენება</div>
-          <h2 data-i18n="when.title">როდის გამოიყენება ჟანგბადის კონცენტრატორი?</h2>
-          <p data-i18n="when.lead">ექიმის დანიშნულებით ჟანგბადის კონცენტრატორი შეიძლება გამოიყენებოდეს სხვადასხვა მდგომარეობის დროს, როდესაც ორგანიზმს დამატებითი ჟანგბადის მიწოდება სჭირდება, მათ შორის:</p>
+          <div class="eyebrow">გამოყენება</div>
+          <h2>როდის გამოიყენება ჟანგბადის კონცენტრატორი?</h2>
+          <p>ექიმის დანიშნულებით ჟანგბადის კონცენტრატორი შეიძლება გამოიყენებოდეს სხვადასხვა მდგომარეობის დროს, როდესაც ორგანიზმს დამატებითი ჟანგბადის მიწოდება სჭირდება, მათ შორის:</p>
           <ul class="bullet-list">
-            <li><span class="dot"></span><span data-i18n="when.b1">ფილტვების ქრონიკული დაავადებების დროს</span></li>
-            <li><span class="dot"></span><span data-i18n="when.b2">პნევმონიისა და სხვა რესპირატორული დაავადებების დროს</span></li>
-            <li><span class="dot"></span><span data-i18n="when.b3">ფილტვის ფიბროზის დროს</span></li>
-            <li><span class="dot"></span><span data-i18n="when.b4">მძიმე რესპირატორული ინფექციების დროს და რეაბილიტაციის პერიოდში</span></li>
-            <li><span class="dot"></span><span data-i18n="when.b5">გულის უკმარისობასთან დაკავშირებული ჰიპოქსიის დროს</span></li>
-            <li><span class="dot"></span><span data-i18n="when.b6">ოპერაციის შემდგომ პერიოდში</span></li>
-            <li><span class="dot"></span><span data-i18n="when.b7">სისხლში ჟანგბადის დაბალი მაჩვენებლის დროს</span></li>
+            <li><span class="dot"></span><span>ფილტვების ქრონიკული დაავადებების დროს</span></li>
+            <li><span class="dot"></span><span>პნევმონიისა და სხვა რესპირატორული დაავადებების დროს</span></li>
+            <li><span class="dot"></span><span>ფილტვის ფიბროზის დროს</span></li>
+            <li><span class="dot"></span><span>მძიმე რესპირატორული ინფექციების დროს და რეაბილიტაციის პერიოდში</span></li>
+            <li><span class="dot"></span><span>გულის უკმარისობასთან დაკავშირებული ჰიპოქსიის დროს</span></li>
+            <li><span class="dot"></span><span>ოპერაციის შემდგომ პერიოდში</span></li>
+            <li><span class="dot"></span><span>სისხლში ჟანგბადის დაბალი მაჩვენებლის დროს</span></li>
           </ul>
-          <div class="note-box" data-i18n="when.note">მნიშვნელოვანია: ჟანგბადის კონცენტრატორის გამოყენება, ჟანგბადის ნაკადის სიჩქარე და გამოყენების ხანგრძლივობა უნდა განისაზღვროს მკურნალი ექიმის რეკომენდაციის მიხედვით.</div>
+          <div class="note-box">მნიშვნელოვანია: ჟანგბადის კონცენტრატორის გამოყენება, ჟანგბადის ნაკადის სიჩქარე და გამოყენების ხანგრძლივობა უნდა განისაზღვროს მკურნალი ექიმის რეკომენდაციის მიხედვით.</div>
         </div>
         <div class="split-media">
-          <img src="images/lungs.jpg" alt="რესპირატორული მოვლა" data-i18n-alt="img.when" width="1400" height="900" loading="lazy" />
+          <picture><source type="image/webp" srcset="images/webp/lungs.webp" /><img src="images/lungs.jpg" alt="რესპირატორული მოვლა" loading="lazy" width="1400" height="933" decoding="async" /></picture>
         </div>
+      </div>
+    </section>
+
+    <section class="section" id="tsodna">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">ცოდნის ცენტრი</div>
+          <h2>სასარგებლო ინფორმაცია ჟანგბადის კონცენტრატორებზე</h2>
+          <p>საინფორმაციო სტატიები და პასუხები ხშირ კითხვებზე.</p>
+        </div>
+        <div class="knowledge-grid">
+          <a class="knowledge-card" href="/tsodna/ra-aris-jangbadis-kontsentratori/">
+            <h3>რა არის ჟანგბადის კონცენტრატორი და როგორ მუშაობს</h3>
+            <p>მარტივი განმარტება და განსხვავება ჟანგბადის ბალონისგან.</p>
+            <span class="more">სტატიის წაკითხვა →</span>
+          </a>
+          <a class="knowledge-card" href="/tsodna/5-da-10-litri/">
+            <h3>5-ლიტრიანი და 10-ლიტრიანი ჟანგბადის აპარატი</h3>
+            <p>ფასების შედარება და კითხვები, რომლებიც ექიმთან უნდა გაარკვიოთ.</p>
+            <span class="more">სტატიის წაკითხვა →</span>
+          </a>
+          <a class="knowledge-card" href="/tsodna/gakiraveba-tu-yidva/">
+            <h3>ჟანგბადის აპარატის გაქირავება თუ ყიდვა</h3>
+            <p>რა გაითვალისწინოთ გადაწყვეტილების მიღებისას.</p>
+            <span class="more">სტატიის წაკითხვა →</span>
+          </a>
+          <a class="knowledge-card" href="/tsodna/mitana-tbilisshi/">
+            <h3>ჟანგბადის აპარატის მიტანა თბილისში</h3>
+            <p>როგორ ხდება მიტანა, დამონტაჟება და რისთვის მოვემზადოთ.</p>
+            <span class="more">სტატიის წაკითხვა →</span>
+          </a>
+        </div>
+        <p class="center mt-2">
+          <a href="/tsodna/">ყველა სტატია</a> ·
+          <a href="/pirebebi/">გაქირავების პირობები</a> ·
+          <a href="/garantia/">გარანტია</a> ·
+          <a href="/shesakheb/">ჩვენ შესახებ</a>
+        </p>
       </div>
     </section>
 
     <section class="section section-alt" id="faq">
       <div class="container">
         <div class="section-head">
-          <div class="eyebrow" data-i18n="faq.eyebrow">FAQ</div>
-          <h2 data-i18n="faq.title">ხშირად დასმული კითხვები</h2>
+          <div class="eyebrow">FAQ</div>
+          <h2>ხშირად დასმული კითხვები</h2>
         </div>
         <div class="faq-list">
           <article class="faq-item open">
             <button class="faq-question" type="button" aria-expanded="true">
-              <span data-i18n="faq.q1">აპარატს ადგილზე მოიტანთ?</span>
+              <span>აპარატს ადგილზე მოიტანთ?</span>
               <span class="chevron" aria-hidden="true">▾</span>
             </button>
-            <div class="faq-answer" data-i18n="faq.a1">დიახ. თბილისში შესაძლებელია ჟანგბადის აპარატის ადგილზე მიტანა და დამონტაჟება.</div>
+            <div class="faq-answer">დიახ. თბილისში შესაძლებელია ჟანგბადის აპარატის ადგილზე მიტანა და დამონტაჟება.</div>
           </article>
           <article class="faq-item">
             <button class="faq-question" type="button" aria-expanded="false">
-              <span data-i18n="faq.qPrice">რა ღირს ჟანგბადის აპარატის გაქირავება?</span>
+              <span>რა ღირს ჟანგბადის აპარატის გაქირავება?</span>
               <span class="chevron" aria-hidden="true">▾</span>
             </button>
-            <div class="faq-answer" data-i18n="faq.aPrice">5-ლიტრიანი აპარატის გაქირავება 10 ლარი დღეში, 10-ლიტრიანი — 15 ლარი დღეში. მოყვება საჭირო აქსესუარები.</div>
+            <div class="faq-answer">5-ლიტრიანი აპარატის გაქირავება 10 ლარი დღეში, 10-ლიტრიანი — 15 ლარი დღეში. მოყვება საჭირო აქსესუარები.</div>
           </article>
           <article class="faq-item">
             <button class="faq-question" type="button" aria-expanded="false">
-              <span data-i18n="faq.q2">აპარატის გამოყენებას ამიხსნით?</span>
+              <span>აპარატის გამოყენებას ამიხსნით?</span>
               <span class="chevron" aria-hidden="true">▾</span>
             </button>
-            <div class="faq-answer" data-i18n="faq.a2">დიახ. აპარატის გადაცემისას მიიღებთ დეტალურ ინსტრუქციას მისი გამოყენების შესახებ.</div>
+            <div class="faq-answer">დიახ. აპარატის გადაცემისას მიიღებთ დეტალურ ინსტრუქციას მისი გამოყენების შესახებ.</div>
           </article>
           <article class="faq-item">
             <button class="faq-question" type="button" aria-expanded="false">
-              <span data-i18n="faq.q3">რამდენ ხანს შეუძლია აპარატს მუშაობა?</span>
+              <span>რამდენ ხანს შეუძლია აპარატს მუშაობა?</span>
               <span class="chevron" aria-hidden="true">▾</span>
             </button>
-            <div class="faq-answer" data-i18n="faq.a3">აპარატები გათვლილია ხანგრძლივ და უწყვეტ რეჟიმში მუშაობაზე.</div>
+            <div class="faq-answer">აპარატები გათვლილია ხანგრძლივ და უწყვეტ რეჟიმში მუშაობაზე.</div>
           </article>
           <article class="faq-item">
             <button class="faq-question" type="button" aria-expanded="false">
-              <span data-i18n="faq.q4">რას მოყვება გაქირავებულ აპარატს?</span>
+              <span>რას მოყვება გაქირავებულ აპარატს?</span>
               <span class="chevron" aria-hidden="true">▾</span>
             </button>
-            <div class="faq-answer" data-i18n="faq.a4">აპარატთან ერთად მიიღებთ სატურატორს, კანულას, ნიღაბს, გამოხდილ წყალსა და საჭირო აქსესუარებს.</div>
+            <div class="faq-answer">აპარატთან ერთად მიიღებთ სატურატორს, კანულას, ნიღაბს, გამოხდილ წყალსა და საჭირო აქსესუარებს.</div>
           </article>
           <article class="faq-item">
             <button class="faq-question" type="button" aria-expanded="false">
-              <span data-i18n="faq.q5">გაქვთ ტექნიკური მხარდაჭერა?</span>
+              <span>გაქვთ ტექნიკური მხარდაჭერა?</span>
               <span class="chevron" aria-hidden="true">▾</span>
             </button>
-            <div class="faq-answer" data-i18n="faq.a5">დიახ. მომხმარებლებისთვის ხელმისაწვდომია 24/7 ტექნიკური მხარდაჭერა.</div>
+            <div class="faq-answer">დიახ. მომხმარებლებისთვის ხელმისაწვდომია 24/7 ტექნიკური მხარდაჭერა.</div>
           </article>
           <article class="faq-item">
             <button class="faq-question" type="button" aria-expanded="false">
-              <span data-i18n="faq.q6">რომელი აპარატი მჭირდება — 5 თუ 10 ლიტრიანი?</span>
+              <span>რომელი აპარატი მჭირდება — 5 თუ 10 ლიტრიანი?</span>
               <span class="chevron" aria-hidden="true">▾</span>
             </button>
-            <div class="faq-answer" data-i18n="faq.a6">შესაბამისი მოწყობილობა და ჟანგბადის ნაკადის პარამეტრები უნდა შეირჩეს ექიმის რეკომენდაციის შესაბამისად.</div>
+            <div class="faq-answer">შესაბამისი მოწყობილობა და ჟანგბადის ნაკადის პარამეტრები უნდა შეირჩეს ექიმის რეკომენდაციის შესაბამისად.</div>
           </article>
         </div>
+        <p class="center mt-2"><a href="/kitkhvebi/">ყველა ხშირი კითხვა →</a></p>
       </div>
     </section>
 
@@ -430,37 +494,38 @@
       <div class="container">
         <div class="cta-band">
           <div>
-            <h2 data-i18n="cta.title">გჭირდებათ ჟანგბადის აპარატი?</h2>
-            <p data-i18n="cta.text">დაგვიკავშირდით გაქირავების, შეძენისა და თბილისში ადგილზე მიტანის შესახებ.</p>
+            <h2>გჭირდებათ ჟანგბადის აპარატი?</h2>
+            <p>დაგვიკავშირდით გაქირავების, შეძენისა და თბილისში ადგილზე მიტანის შესახებ.</p>
           </div>
           <div class="cta-phones">
-            <a href="tel:+995592155499">592 15 54 99</a>
-            <a href="tel:+995544441240">544 44 12 40</a>
+            <a href="tel:+995592155499" data-track="tel">592 15 54 99</a>
+            <a href="tel:+995544441240" data-track="tel">544 44 12 40</a>
           </div>
         </div>
 
         <div class="location-card">
           <div class="location-info">
-            <div class="eyebrow" data-i18n="location.eyebrow">მდებარეობა</div>
-            <h3 data-i18n="location.title">ჩვენი ოფისი</h3>
-            <p data-i18n="location.text">მოგვეძებნეთ Google Maps-ზე. რუკაზე დააჭირეთ და მარტივად მიიღეთ მიმართულება ოფისამდე.</p>
+            <div class="eyebrow">მდებარეობა</div>
+            <h3>ჩვენი ოფისი</h3>
+            <p>მოგვეძებნეთ Google Maps-ზე. რუკაზე დააჭირეთ და მარტივად მიიღეთ მიმართულება ოფისამდე.</p>
             <ul class="location-meta">
               <li>
                 <span aria-hidden="true">📍</span>
-                <span data-i18n="location.name">ჟანგბადის აპარატების გაქირავება — Jangbadisaparati</span>
+                <span>ჟანგბადის აპარატების გაქირავება — Jangbadisaparati</span>
               </li>
               <li>
                 <span aria-hidden="true">🏠</span>
-                <span data-i18n="location.address">კორპუსი 1, ვაზისუბნის დასახლება, თბილისი 0153, საქართველო</span>
+                <span>კორპუსი 1, ვაზისუბნის დასახლება, თბილისი 0153, საქართველო</span>
               </li>
               <li>
                 <span aria-hidden="true">🗺️</span>
-                <a href="https://maps.app.goo.gl/yMm9imYZGB4CaDfPA" target="_blank" rel="noopener noreferrer" data-i18n="location.openMaps">გახსენით Google Maps-ში</a>
+                <a href="https://maps.app.goo.gl/yMm9imYZGB4CaDfPA" target="_blank" rel="noopener noreferrer">გახსენით Google Maps-ში</a>
               </li>
             </ul>
             <div class="btn-row mt-1">
-              <a class="btn btn-primary" href="https://maps.app.goo.gl/yMm9imYZGB4CaDfPA" target="_blank" rel="noopener noreferrer" data-i18n="location.viewMap">ნახეთ რუკაზე</a>
-              <a class="btn btn-outline" href="https://www.google.com/maps/dir/?api=1&destination=41.6973184,44.8616681" target="_blank" rel="noopener noreferrer" data-i18n="location.directions">მიმართულება</a>
+              <a class="btn btn-primary" href="https://maps.app.goo.gl/yMm9imYZGB4CaDfPA" target="_blank" rel="noopener noreferrer">ნახეთ რუკაზე</a>
+              <a class="btn btn-outline" href="https://www.google.com/maps/dir/?api=1&amp;destination=41.6973184,44.8616681" target="_blank" rel="noopener noreferrer">მიმართულება</a>
+              <a class="btn btn-outline" href="/kontakti/">კონტაქტის გვერდი</a>
             </div>
           </div>
           <div class="location-map">
@@ -478,12 +543,12 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="footer-grid">
+      <div class="footer-grid footer-grid-4">
         <div class="footer-brand">
           <strong>Jangbadisaparati.ge</strong>
-          <p data-i18n="footer.tag">ჟანგბადის აპარატების გაქირავება და გაყიდვა თბილისში</p>
-          <p data-i18n="footer.services">ადგილზე მიტანა • დამონტაჟება • 24/7 მხარდაჭერა</p>
-          <p class="footer-follow" data-i18n="footer.follow">გამოგვყევით</p>
+          <p>ჟანგბადის აპარატების გაქირავება და გაყიდვა თბილისში</p>
+          <p>ადგილზე მიტანა • დამონტაჟება • 24/7 მხარდაჭერა</p>
+          <p class="footer-follow">გამოგვყევით</p>
           <div class="social-links">
             <a class="social-link social-tiktok" href="https://www.tiktok.com/@jangbadis" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.6 8.5a6.6 6.6 0 0 1-3.9-1.3v6.5a5.9 5.9 0 1 1-5.1-5.8v2.7a3.2 3.2 0 1 0 2.3 3.1V2.5h2.7a6.6 6.6 0 0 0 4 4.2v1.8z"/></svg>
@@ -496,37 +561,49 @@
           </div>
         </div>
         <div>
-          <h3 data-i18n="footer.nav">ნავიგაცია</h3>
+          <h3>ნავიგაცია</h3>
           <div class="footer-links">
-            <a href="/qiraoba/" data-i18n="nav.rental">გაქირავება</a>
-            <a href="/gayidva/" data-i18n="nav.sales">გაყიდვა</a>
-            <a href="/#why" data-i18n="nav.why">რატომ ჩვენ</a>
-            <a href="/#faq" data-i18n="nav.faq">კითხვები</a>
-            <a href="/#contact" data-i18n="nav.contact">კონტაქტი</a>
+            <a href="/">მთავარი</a>
+            <a href="/qiraoba/">გაქირავება</a>
+            <a href="/gayidva/">გაყიდვა</a>
+            <a href="/qiraoba/5-litri/">5-ლიტრიანის გაქირავება</a>
+            <a href="/qiraoba/10-litri/">10-ლიტრიანის გაქირავება</a>
+            <a href="/gayidva/5-litri/">5-ლიტრიანის ყიდვა</a>
+            <a href="/gayidva/10-litri/">10-ლიტრიანის ყიდვა</a>
           </div>
         </div>
         <div>
-          <h3 data-i18n="footer.contact">კონტაქტი</h3>
+          <h3>ინფორმაცია</h3>
           <div class="footer-links">
-            <a href="tel:+995592155499">592 15 54 99</a>
-            <a href="tel:+995544441240">544 44 12 40</a>
-            <span class="footer-address" data-i18n="location.address">კორპუსი 1, ვაზისუბნის დასახლება, თბილისი 0153, საქართველო</span>
-            <a href="https://www.tiktok.com/@jangbadis" target="_blank" rel="noopener noreferrer">TikTok</a>
-            <a href="https://www.facebook.com/profile.php?id=100063621636222" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a href="https://maps.app.goo.gl/yMm9imYZGB4CaDfPA" target="_blank" rel="noopener noreferrer" data-i18n="location.viewMap">ნახეთ რუკაზე</a>
+            <a href="/pirebebi/">პირობები</a>
+            <a href="/garantia/">გარანტია</a>
+            <a href="/tsodna/">ცოდნის ცენტრი</a>
+            <a href="/kitkhvebi/">ხშირი კითხვები</a>
+            <a href="/shesakheb/">ჩვენ შესახებ</a>
+            <a href="/en/" hreflang="en" lang="en">English</a>
+          </div>
+        </div>
+        <div>
+          <h3>კონტაქტი</h3>
+          <div class="footer-links">
+            <a href="tel:+995592155499" data-track="tel">592 15 54 99</a>
+            <a href="tel:+995544441240" data-track="tel">544 44 12 40</a>
+            <span class="footer-address">კორპუსი 1, ვაზისუბნის დასახლება, თბილისი 0153, საქართველო</span>
+            <a href="https://maps.app.goo.gl/yMm9imYZGB4CaDfPA" target="_blank" rel="noopener noreferrer">ნახეთ რუკაზე</a>
+            <a href="/kontakti/">კონტაქტის გვერდი</a>
           </div>
         </div>
       </div>
-      <div class="footer-warning" data-i18n="footer.warning">სამედიცინო გაფრთხილება: საიტზე განთავსებული ინფორმაცია არის საინფორმაციო ხასიათის და არ ცვლის ექიმის კონსულტაციას. ჟანგბადის თერაპია და ჟანგბადის ნაკადის პარამეტრები გამოიყენეთ ექიმის დანიშნულების შესაბამისად.</div>
-      <div class="footer-copy" data-i18n="footer.copy">© Jangbadisaparati.ge — ყველა უფლება დაცულია</div>
+      <div class="footer-warning">სამედიცინო გაფრთხილება: საიტზე განთავსებული ინფორმაცია არის საინფორმაციო ხასიათის და არ ცვლის ექიმის კონსულტაციას. ჟანგბადის თერაპია და ჟანგბადის ნაკადის პარამეტრები გამოიყენეთ ექიმის დანიშნულების შესაბამისად.</div>
+      <div class="footer-copy">© Jangbadisaparati.ge — ყველა უფლება დაცულია</div>
     </div>
   </footer>
 
-  <div class="mobile-cta" aria-label="Contact actions">
-    <a class="btn btn-primary" href="tel:+995592155499" data-i18n="btn.call">დარეკვა</a>
-    <a class="btn btn-whatsapp" data-wa="general" data-wa-ka="გამარჯობა, მაინტერესებს ჟანგბადის აპარატის გაქირავება / გაყიდვა." href="https://wa.me/995592155499" target="_blank" rel="noopener" data-i18n="btn.whatsapp">WhatsApp-ზე მოწერა</a>
+  <div class="mobile-cta" role="group" aria-label="კონტაქტი">
+    <a class="btn btn-primary" href="tel:+995592155499" data-track="tel">დარეკვა</a>
+    <a class="btn btn-whatsapp" href="https://wa.me/995592155499?text=%E1%83%92%E1%83%90%E1%83%9B%E1%83%90%E1%83%A0%E1%83%AF%E1%83%9D%E1%83%91%E1%83%90%2C%20%E1%83%9B%E1%83%90%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%A0%E1%83%94%E1%83%A1%E1%83%94%E1%83%91%E1%83%A1%20%E1%83%9F%E1%83%90%E1%83%9C%E1%83%92%E1%83%91%E1%83%90%E1%83%93%E1%83%98%E1%83%A1%20%E1%83%90%E1%83%9E%E1%83%90%E1%83%A0%E1%83%90%E1%83%A2%E1%83%98%E1%83%A1%20%E1%83%92%E1%83%90%E1%83%A5%E1%83%98%E1%83%A0%E1%83%90%E1%83%95%E1%83%94%E1%83%91%E1%83%90%20%2F%20%E1%83%92%E1%83%90%E1%83%A7%E1%83%98%E1%83%93%E1%83%95%E1%83%90." target="_blank" rel="noopener" data-track="whatsapp" data-channel="whatsapp">WhatsApp-ზე მოწერა</a>
   </div>
 
-  <script src="js/main.js"></script>
+  <script src="js/site.js"></script>
 </body>
 </html>
