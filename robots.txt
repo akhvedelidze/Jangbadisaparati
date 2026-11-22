@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /tsodna/
+Disallow: /en/knowledge/
 
 Sitemap: https://jangbadisaparati.ge/sitemap.xml

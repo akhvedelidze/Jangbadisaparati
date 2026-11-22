@@ -127,48 +127,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/gayidva/10-litri/" />
   </url>
   <url>
-    <loc>https://jangbadisaparati.ge/tsodna/</loc>
-    <lastmod>2026-11-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/tsodna/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/knowledge/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/tsodna/" />
-  </url>
-  <url>
-    <loc>https://jangbadisaparati.ge/en/knowledge/</loc>
-    <lastmod>2026-11-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/tsodna/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/knowledge/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/tsodna/" />
-  </url>
-  <url>
-    <loc>https://jangbadisaparati.ge/tsodna/ra-aris-jangbadis-kontsentratori/</loc>
-    <lastmod>2026-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://jangbadisaparati.ge/tsodna/5-da-10-litri/</loc>
-    <lastmod>2026-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://jangbadisaparati.ge/tsodna/gakiraveba-tu-yidva/</loc>
-    <lastmod>2026-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://jangbadisaparati.ge/tsodna/mitana-tbilisshi/</loc>
-    <lastmod>2026-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://jangbadisaparati.ge/kitkhvebi/</loc>
     <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
