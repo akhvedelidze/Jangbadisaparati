@@ -1,5 +1,5 @@
-﻿<!DOCTYPE html>
-<html lang="ka" data-page="qiraoba">
+<!DOCTYPE html>
+<html lang="ka" class="no-js">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,13 +7,19 @@
   <meta name="description" content="ჟანგბადის აპარატების გაქირავება თბილისში. 5 ლიტრი — 10 ₾/დღე, 10 ლიტრი — 15 ₾/დღე. ადგილზე მიტანა, დამონტაჟება, აქსესუარები და 24/7 მხარდაჭერა. 592 15 54 99." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://jangbadisaparati.ge/qiraoba/" />
+  <link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/qiraoba/" />
+  <link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/rental/" />
+  <link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/qiraoba/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="ka_GE" />
+  <meta property="og:locale:alternate" content="en_US" />
   <meta property="og:title" content="ჟანგბადის აპარატის გაქირავება თბილისში" />
   <meta property="og:description" content="ჟანგბადის კონცენტრატორის გაქირავება თბილისში — ადგილზე მიტანა, დამონტაჟება და 24/7 მხარდაჭერა." />
   <meta property="og:url" content="https://jangbadisaparati.ge/qiraoba/" />
   <meta property="og:site_name" content="Jangbadisaparati.ge" />
   <meta property="og:image" content="https://jangbadisaparati.ge/images/concentrator-2.png" />
+  <meta property="og:image:width" content="800" />
+  <meta property="og:image:height" content="800" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://jangbadisaparati.ge/images/concentrator-2.png" />
   <meta name="theme-color" content="#0a3d56" />
@@ -25,94 +31,208 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../css/styles.css" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "მთავარი", "item": "https://jangbadisaparati.ge/" },
-          { "@type": "ListItem", "position": 2, "name": "გაქირავება", "item": "https://jangbadisaparati.ge/qiraoba/" }
-        ]
-      },
-      {
-        "@type": "Service",
-        "name": "ჟანგბადის აპარატის გაქირავება თბილისში",
-        "serviceType": "Oxygen concentrator rental",
-        "provider": {
-          "@type": "MedicalBusiness",
-          "name": "Jangbadisaparati.ge",
-          "telephone": ["+995592155499", "+995544441240"],
-          "url": "https://jangbadisaparati.ge/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://jangbadisaparati.ge/qiraoba/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "მთავარი",
+          "item": "https://jangbadisaparati.ge/"
         },
-        "areaServed": { "@type": "City", "name": "თბილისი" },
-        "description": "ჟანგბადის კონცენტრატორების გაქირავება თბილისში ადგილზე მიტანითა და დამონტაჟებით.",
-        "url": "https://jangbadisaparati.ge/qiraoba/",
-        "offers": [
-          {
-            "@type": "Offer",
-            "name": "5-ლიტრიანი ჟანგბადის აპარატის გაქირავება",
-            "price": "10",
-            "priceCurrency": "GEL",
-            "unitText": "DAY",
-            "availability": "https://schema.org/InStock",
-            "url": "https://jangbadisaparati.ge/qiraoba/"
-          },
-          {
-            "@type": "Offer",
-            "name": "10-ლიტრიანი ჟანგბადის აპარატის გაქირავება",
-            "price": "15",
-            "priceCurrency": "GEL",
-            "unitText": "DAY",
-            "availability": "https://schema.org/InStock",
-            "url": "https://jangbadisaparati.ge/qiraoba/"
-          }
-        ]
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "გაქირავება",
+          "item": "https://jangbadisaparati.ge/qiraoba/"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalBusiness",
+      "@id": "https://jangbadisaparati.ge/#business",
+      "name": "Jangbadisaparati.ge",
+      "url": "https://jangbadisaparati.ge/",
+      "description": "ჟანგბადის აპარატების გაქირავება და გაყიდვა თბილისში — ადგილზე მიტანა, დამონტაჟება და 24/7 ტექნიკური მხარდაჭერა.",
+      "image": "https://jangbadisaparati.ge/images/concentrator-1.png",
+      "telephone": [
+        "+995592155499",
+        "+995544441240"
+      ],
+      "priceRange": "₾10–₾2200",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "თბილისი"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "კორპუსი 1, ვაზისუბნის დასახლება",
+        "addressLocality": "თბილისი",
+        "postalCode": "0153",
+        "addressCountry": "GE"
       },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "რა ღირს ჟანგბადის აპარატის გაქირავება თბილისში?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "5-ლიტრიანი აპარატი — 10 ლარი დღეში, 10-ლიტრიანი — 15 ლარი დღეში."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "მოიტანთ აპარატს ადგილზე?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "დიახ. თბილისში ვახორციელებთ ადგილზე მიტანას, დამონტაჟებას და გამოყენების ინსტრუქციას."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "რას მოყვება გაქირავებულ აპარატს?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "სატურატორი, კანულა, ნიღაბი, გამოხდილი წყალი და საჭირო აქსესუარები."
-            }
-          }
-        ]
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.6973184,
+        "longitude": 44.8616681
+      },
+      "hasMap": "https://maps.app.goo.gl/yMm9imYZGB4CaDfPA",
+      "sameAs": [
+        "https://wa.me/995592155499",
+        "https://www.tiktok.com/@jangbadis",
+        "https://www.facebook.com/profile.php?id=100063621636222",
+        "https://maps.app.goo.gl/yMm9imYZGB4CaDfPA"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jangbadisaparati.ge/#website",
+      "url": "https://jangbadisaparati.ge/",
+      "name": "Jangbadisaparati.ge",
+      "inLanguage": [
+        "ka",
+        "en"
+      ],
+      "publisher": {
+        "@id": "https://jangbadisaparati.ge/#business"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://jangbadisaparati.ge/qiraoba/#webpage",
+      "url": "https://jangbadisaparati.ge/qiraoba/",
+      "name": "ჟანგბადის აპარატის გაქირავება თბილისში | Jangbadisaparati.ge",
+      "description": "ჟანგბადის აპარატების გაქირავება თბილისში. 5 ლიტრი — 10 ₾/დღე, 10 ლიტრი — 15 ₾/დღე. ადგილზე მიტანა, დამონტაჟება, აქსესუარები და 24/7 მხარდაჭერა. 592 15 54 99.",
+      "inLanguage": "ka",
+      "isPartOf": {
+        "@id": "https://jangbadisaparati.ge/#website"
+      },
+      "about": {
+        "@id": "https://jangbadisaparati.ge/#business"
+      },
+      "breadcrumb": {
+        "@id": "https://jangbadisaparati.ge/qiraoba/#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://jangbadisaparati.ge/images/concentrator-2.png"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://jangbadisaparati.ge/qiraoba/#service",
+      "name": "ჟანგბადის აპარატის გაქირავება თბილისში",
+      "serviceType": "Oxygen concentrator rental",
+      "description": "ჟანგბადის კონცენტრატორების გაქირავება თბილისში ადგილზე მიტანითა და დამონტაჟებით.",
+      "url": "https://jangbadisaparati.ge/qiraoba/",
+      "inLanguage": "ka",
+      "provider": {
+        "@id": "https://jangbadisaparati.ge/#business"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "თბილისი"
+      },
+      "termsOfService": "https://jangbadisaparati.ge/pirebebi/",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "5-ლიტრიანი ჟანგბადის კონცენტრატორის გაქირავება",
+          "url": "https://jangbadisaparati.ge/qiraoba/5-litri/",
+          "price": "10",
+          "priceCurrency": "GEL",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 10,
+            "priceCurrency": "GEL",
+            "unitCode": "DAY",
+            "unitText": "დღე",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "DAY"
+            }
+          },
+          "seller": {
+            "@id": "https://jangbadisaparati.ge/#business"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "10-ლიტრიანი ჟანგბადის კონცენტრატორის გაქირავება",
+          "url": "https://jangbadisaparati.ge/qiraoba/10-litri/",
+          "price": "15",
+          "priceCurrency": "GEL",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 15,
+            "priceCurrency": "GEL",
+            "unitCode": "DAY",
+            "unitText": "დღე",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "DAY"
+            }
+          },
+          "seller": {
+            "@id": "https://jangbadisaparati.ge/#business"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://jangbadisaparati.ge/qiraoba/#faq",
+      "inLanguage": "ka",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "რა ღირს ჟანგბადის აპარატის გაქირავება თბილისში?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "5-ლიტრიანი აპარატი — 10 ლარი დღეში, 10-ლიტრიანი — 15 ლარი დღეში."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "მოიტანთ აპარატს ადგილზე?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "დიახ. თბილისში ვახორციელებთ ადგილზე მიტანას, დამონტაჟებას და გამოყენების ინსტრუქციას."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "რას მოყვება გაქირავებულ აპარატს?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "სატურატორი, კანულა, ნიღაბი, გამოხდილი წყალი და საჭირო აქსესუარები."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
   <div class="topbar">
     <div class="container">
       <div class="topbar-phones">
-        <a href="tel:+995592155499">📞 592 15 54 99</a>
-        <a href="tel:+995544441240">📞 544 44 12 40</a>
+        <a href="tel:+995592155499" data-track="tel">📞 592 15 54 99</a>
+        <a href="tel:+995544441240" data-track="tel">📞 544 44 12 40</a>
       </div>
       <div class="topbar-social">
         <a href="https://www.tiktok.com/@jangbadis" target="_blank" rel="noopener noreferrer" aria-label="TikTok">TikTok</a>
         <a href="https://www.facebook.com/profile.php?id=100063621636222" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a>
-        <span class="topbar-note" data-i18n="top.support">24/7 ტექნიკური მხარდაჭერა</span>
+        <span class="topbar-note">24/7 ტექნიკური მხარდაჭერა</span>
       </div>
     </div>
   </div>
@@ -123,25 +243,25 @@
         <span class="logo-mark">O₂</span>
         <span class="logo-text">
           <strong>Jangbadisaparati.ge</strong>
-          <span data-i18n="logo.tag">გაქირავება და გაყიდვა</span>
+          <span>გაქირავება და გაყიდვა</span>
         </span>
       </a>
 
-      <nav class="nav" aria-label="Main">
-        <a href="/qiraoba/" data-i18n="nav.rental" aria-current="page">გაქირავება</a>
-        <a href="/gayidva/" data-i18n="nav.sales">გაყიდვა</a>
-        <a href="/#why" data-i18n="nav.why">რატომ ჩვენ</a>
-        <a href="/#about" data-i18n="nav.about">აპარატის შესახებ</a>
-        <a href="#faq" data-i18n="nav.faq">კითხვები</a>
-        <a href="#contact" data-i18n="nav.contact">კონტაქტი</a>
+      <nav class="nav" aria-label="მთავარი ნავიგაცია">
+        <a href="/qiraoba/" aria-current="page">გაქირავება</a>
+        <a href="/gayidva/">გაყიდვა</a>
+        <a href="/tsodna/">ცოდნა</a>
+        <a href="/kitkhvebi/">კითხვები</a>
+        <a href="/shesakheb/">ჩვენ შესახებ</a>
+        <a href="/kontakti/">კონტაქტი</a>
       </nav>
 
       <div class="header-actions">
-        <div class="lang-switch" role="group" aria-label="Language">
-          <button type="button" data-lang="ka" class="active" aria-pressed="true">KA</button>
-          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        <div class="lang-switch" role="group" aria-label="ენა">
+          <span class="lang-link active" lang="ka" aria-current="true">KA</span>
+          <a class="lang-link" href="/en/rental/" hreflang="en" lang="en" title="English">EN</a>
         </div>
-        <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false">
+        <button class="menu-toggle" type="button" aria-label="მენიუ" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
       </div>
@@ -150,29 +270,38 @@
 
   <div class="mobile-nav">
     <div class="mobile-nav-panel">
-      <a href="/qiraoba/" data-i18n="nav.rental">გაქირავება</a>
-      <a href="/gayidva/" data-i18n="nav.sales">გაყიდვა</a>
-      <a href="/#why" data-i18n="nav.why">რატომ ჩვენ</a>
-      <a href="/#about" data-i18n="nav.about">აპარატის შესახებ</a>
-      <a href="#faq" data-i18n="nav.faq">კითხვები</a>
-      <a href="#contact" data-i18n="nav.contact">კონტაქტი</a>
+      <a href="/qiraoba/">გაქირავება</a>
+      <a href="/gayidva/">გაყიდვა</a>
+      <a href="/tsodna/">ცოდნა</a>
+      <a href="/kitkhvebi/">კითხვები</a>
+      <a href="/shesakheb/">ჩვენ შესახებ</a>
+      <a href="/kontakti/">კონტაქტი</a>
+      <a class="lang-link-mobile" href="/en/rental/" hreflang="en" lang="en">English (EN)</a>
     </div>
   </div>
 
   <main id="top">
+    <nav class="breadcrumb" aria-label="ნავიგაციის გზა">
+      <div class="container">
+        <ol>
+        <li><a href="/">მთავარი</a></li>
+        <li><span aria-current="page">გაქირავება</span></li>
+        </ol>
+      </div>
+    </nav>
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-intro">
-          <div class="eyebrow" data-i18n="rental.eyebrow">გაქირავება</div>
-          <h1 data-i18n="page.qiraoba.h1">ჟანგბადის აპარატის გაქირავება თბილისში</h1>
-          <p class="lead" data-i18n="page.qiraoba.lead">ადგილზე მიტანა, დამონტაჟება და 24/7 მხარდაჭერა — 5 და 10-ლიტრიანი კონცენტრატორები.</p>
+          <div class="eyebrow">გაქირავება</div>
+          <h1>ჟანგბადის აპარატის გაქირავება თბილისში</h1>
+          <p class="lead">ადგილზე მიტანა, დამონტაჟება და 24/7 მხარდაჭერა — 5 და 10-ლიტრიანი კონცენტრატორები.</p>
           <div class="btn-row hero-cta">
-            <a class="btn btn-primary" href="tel:+995592155499"><span data-i18n="btn.call">დარეკვა</span></a>
-            <a class="btn btn-whatsapp" data-wa="general" data-wa-ka="გამარჯობა, მაინტერესებს ჟანგბადის აპარატის გაქირავება თბილისში." href="https://wa.me/995592155499" target="_blank" rel="noopener"><span data-i18n="btn.whatsapp">WhatsApp-ზე მოწერა</span></a>
+            <a class="btn btn-primary" href="tel:+995592155499" data-track="tel"><span>დარეკვა</span></a>
+            <a class="btn btn-whatsapp" href="https://wa.me/995592155499?text=%E1%83%92%E1%83%90%E1%83%9B%E1%83%90%E1%83%A0%E1%83%AF%E1%83%9D%E1%83%91%E1%83%90%2C%20%E1%83%9B%E1%83%90%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%A0%E1%83%94%E1%83%A1%E1%83%94%E1%83%91%E1%83%A1%20%E1%83%9F%E1%83%90%E1%83%9C%E1%83%92%E1%83%91%E1%83%90%E1%83%93%E1%83%98%E1%83%A1%20%E1%83%90%E1%83%9E%E1%83%90%E1%83%A0%E1%83%90%E1%83%A2%E1%83%98%E1%83%A1%20%E1%83%92%E1%83%90%E1%83%A5%E1%83%98%E1%83%A0%E1%83%90%E1%83%95%E1%83%94%E1%83%91%E1%83%90%20%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%A8%E1%83%98." target="_blank" rel="noopener" data-track="whatsapp" data-channel="whatsapp"><span>WhatsApp-ზე მოწერა</span></a>
           </div>
         </div>
         <div class="hero-visual">
-          <img src="../images/concentrator-2.png" alt="ჟანგბადის აპარატის გაქირავება თბილისში — 5 ლიტრიანი კონცენტრატორი" data-i18n-alt="img.rent5" width="800" height="1000" />
+          <picture><source type="image/webp" srcset="../images/webp/concentrator-2.webp" /><img src="../images/concentrator-2.png" alt="ჟანგბადის აპარატის გაქირავება თბილისში — 5 ლიტრიანი კონცენტრატორი" width="800" height="800" decoding="async" fetchpriority="high" /></picture>
         </div>
       </div>
     </section>
@@ -180,56 +309,58 @@
     <section class="section" id="rental">
       <div class="container">
         <div class="section-head">
-          <h2 data-i18n="page.qiraoba.howTitle">როგორ მუშაობს გაქირავება</h2>
-          <p class="lead" data-i18n="page.qiraoba.howLead">ჟანგბადის აპარატის გაქირავება თბილისში მარტივია: დაგვირეკეთ ან მოგვწერეთ, შეგირჩევთ საჭირო მოდელს და მოგიტანთ მისამართზე.</p>
+          <h2>როგორ მუშაობს გაქირავება</h2>
+          <p class="lead">ჟანგბადის აპარატის გაქირავება თბილისში მარტივია: დაგვირეკეთ ან მოგვწერეთ, შეგირჩევთ საჭირო მოდელს და მოგიტანთ მისამართზე.</p>
         </div>
         <div class="accessories">
           <div class="accessories-panel">
-            <h3 data-i18n="rental.includesTitle">აპარატს მოყვება:</h3>
+            <h3>აპარატს მოყვება:</h3>
             <div class="chip-grid">
-              <div class="chip">✓ <span data-i18n="rental.i1">სატურატორი</span></div>
-              <div class="chip">✓ <span data-i18n="rental.i2">ჟანგბადის კანულა</span></div>
-              <div class="chip">✓ <span data-i18n="rental.i3">ნიღაბი</span></div>
-              <div class="chip">✓ <span data-i18n="rental.i4">გამოხდილი წყალი</span></div>
-              <div class="chip">✓ <span data-i18n="rental.i5">საჭირო აქსესუარები</span></div>
+              <div class="chip">✓ <span>სატურატორი</span></div>
+              <div class="chip">✓ <span>ჟანგბადის კანულა</span></div>
+              <div class="chip">✓ <span>ნიღაბი</span></div>
+              <div class="chip">✓ <span>გამოხდილი წყალი</span></div>
+              <div class="chip">✓ <span>საჭირო აქსესუარები</span></div>
             </div>
-            <h3 class="mt-2" data-i18n="rental.weTitle">ჩვენ:</h3>
+            <h3 class="mt-2">ჩვენ:</h3>
             <ul class="check-list dark">
-              <li><span class="check-icon">✓</span><span data-i18n="rental.w1">მოგიტანთ აპარატს ადგილზე</span></li>
-              <li><span class="check-icon">✓</span><span data-i18n="rental.w2">დავამონტაჟებთ</span></li>
-              <li><span class="check-icon">✓</span><span data-i18n="rental.w3">აგიხსნით გამოყენების წესს</span></li>
-              <li><span class="check-icon">✓</span><span data-i18n="rental.w4">საჭიროების შემთხვევაში გაგიწევთ ტექნიკურ დახმარებას 24 საათის განმავლობაში</span></li>
+              <li><span class="check-icon">✓</span><span>მოგიტანთ აპარატს ადგილზე</span></li>
+              <li><span class="check-icon">✓</span><span>დავამონტაჟებთ</span></li>
+              <li><span class="check-icon">✓</span><span>აგიხსნით გამოყენების წესს</span></li>
+              <li><span class="check-icon">✓</span><span>საჭიროების შემთხვევაში გაგიწევთ ტექნიკურ დახმარებას 24 საათის განმავლობაში</span></li>
             </ul>
           </div>
           <div class="accessories-media">
-            <img src="../images/accessories-kit.png" alt="ჟანგბადის აპარატის გაქირავება — აქსესუარების კომპლექტი" data-i18n-alt="img.accessories" width="1000" height="700" loading="lazy" />
+            <picture><source type="image/webp" srcset="../images/webp/accessories-kit.webp" /><img src="../images/accessories-kit.png" alt="ჟანგბადის აპარატის გაქირავება — აქსესუარების კომპლექტი" loading="lazy" width="1024" height="1024" decoding="async" /></picture>
           </div>
         </div>
 
         <div class="section-head mt-2">
-          <h2 data-i18n="rental.prices">გაქირავების ფასი</h2>
-          <p data-i18n="page.qiraoba.priceNote">ფასები მითითებულია დღიურ ქირაზე. ხანგრძლივი პერიოდისთვის დაგვიკავშირდით.</p>
+          <h2>გაქირავების ფასი</h2>
+          <p>ფასები მითითებულია დღიურ ქირაზე. ხანგრძლივი პერიოდისთვის დაგვიკავშირდით.</p>
         </div>
 
         <div class="cards-2">
           <article class="product-card featured">
             <div class="product-media">
-              <div class="price-tag"><span data-i18n="rental.price5">10 ლარი</span> <em data-i18n="rental.perDay">/ დღე</em></div>
-              <img src="../images/concentrator-2.png" alt="5-ლიტრიანი ჟანგბადის აპარატი გაქირავება" data-i18n-alt="img.rent5" width="800" height="1000" loading="lazy" />
+              <div class="price-tag"><span>10 ლარი</span> <em>/ დღე</em></div>
+              <picture><source type="image/webp" srcset="../images/webp/concentrator-2.webp" /><img src="../images/concentrator-2.png" alt="5-ლიტრიანი ჟანგბადის აპარატი გაქირავება" loading="lazy" width="800" height="800" decoding="async" /></picture>
             </div>
             <div class="product-body">
-              <h3 data-i18n="rental.card5">5-ლიტრიანი ჟანგბადის კონცენტრატორი</h3>
-              <a class="btn btn-whatsapp btn-block" data-wa="rent5" data-wa-ka="გამარჯობა, მინდა 5-ლიტრიანი ჟანგბადის კონცენტრატორის დაქირავება." href="https://wa.me/995592155499" target="_blank" rel="noopener" data-i18n="btn.rent5">5-ლიტრიანი აპარატის დაქირავება</a>
+              <h3><a href="/qiraoba/5-litri/">5-ლიტრიანი ჟანგბადის კონცენტრატორი</a></h3>
+              <a class="btn btn-outline btn-block" href="/qiraoba/5-litri/">5-ლიტრიანის დეტალები →</a>
+              <a class="btn btn-whatsapp btn-block" href="https://wa.me/995592155499?text=%E1%83%92%E1%83%90%E1%83%9B%E1%83%90%E1%83%A0%E1%83%AF%E1%83%9D%E1%83%91%E1%83%90%2C%20%E1%83%9B%E1%83%98%E1%83%9C%E1%83%93%E1%83%90%205-%E1%83%9A%E1%83%98%E1%83%A2%E1%83%A0%E1%83%98%E1%83%90%E1%83%9C%E1%83%98%20%E1%83%9F%E1%83%90%E1%83%9C%E1%83%92%E1%83%91%E1%83%90%E1%83%93%E1%83%98%E1%83%A1%20%E1%83%99%E1%83%9D%E1%83%9C%E1%83%AA%E1%83%94%E1%83%9C%E1%83%A2%E1%83%A0%E1%83%90%E1%83%A2%E1%83%9D%E1%83%A0%E1%83%98%E1%83%A1%20%E1%83%93%E1%83%90%E1%83%A5%E1%83%98%E1%83%A0%E1%83%90%E1%83%95%E1%83%94%E1%83%91%E1%83%90." target="_blank" rel="noopener" data-track="rent" data-channel="whatsapp" data-product="5L">5-ლიტრიანი აპარატის დაქირავება</a>
             </div>
           </article>
           <article class="product-card">
             <div class="product-media">
-              <div class="price-tag"><span data-i18n="rental.price10">15 ლარი</span> <em data-i18n="rental.perDay">/ დღე</em></div>
-              <img src="../images/concentrator-3.png" alt="10-ლიტრიანი ჟანგბადის აპარატი გაქირავება" data-i18n-alt="img.rent10" width="800" height="1000" loading="lazy" />
+              <div class="price-tag"><span>15 ლარი</span> <em>/ დღე</em></div>
+              <picture><source type="image/webp" srcset="../images/webp/concentrator-3.webp" /><img src="../images/concentrator-3.png" alt="10-ლიტრიანი ჟანგბადის აპარატი გაქირავება" loading="lazy" width="730" height="730" decoding="async" /></picture>
             </div>
             <div class="product-body">
-              <h3 data-i18n="rental.card10">10-ლიტრიანი ჟანგბადის კონცენტრატორი</h3>
-              <a class="btn btn-whatsapp btn-block" data-wa="rent10" data-wa-ka="გამარჯობა, მინდა 10-ლიტრიანი ჟანგბადის კონცენტრატორის დაქირავება." href="https://wa.me/995592155499" target="_blank" rel="noopener" data-i18n="btn.rent10">10-ლიტრიანი აპარატის დაქირავება</a>
+              <h3><a href="/qiraoba/10-litri/">10-ლიტრიანი ჟანგბადის კონცენტრატორი</a></h3>
+              <a class="btn btn-outline btn-block" href="/qiraoba/10-litri/">10-ლიტრიანის დეტალები →</a>
+              <a class="btn btn-whatsapp btn-block" href="https://wa.me/995592155499?text=%E1%83%92%E1%83%90%E1%83%9B%E1%83%90%E1%83%A0%E1%83%AF%E1%83%9D%E1%83%91%E1%83%90%2C%20%E1%83%9B%E1%83%98%E1%83%9C%E1%83%93%E1%83%90%2010-%E1%83%9A%E1%83%98%E1%83%A2%E1%83%A0%E1%83%98%E1%83%90%E1%83%9C%E1%83%98%20%E1%83%9F%E1%83%90%E1%83%9C%E1%83%92%E1%83%91%E1%83%90%E1%83%93%E1%83%98%E1%83%A1%20%E1%83%99%E1%83%9D%E1%83%9C%E1%83%AA%E1%83%94%E1%83%9C%E1%83%A2%E1%83%A0%E1%83%90%E1%83%A2%E1%83%9D%E1%83%A0%E1%83%98%E1%83%A1%20%E1%83%93%E1%83%90%E1%83%A5%E1%83%98%E1%83%A0%E1%83%90%E1%83%95%E1%83%94%E1%83%91%E1%83%90." target="_blank" rel="noopener" data-track="rent" data-channel="whatsapp" data-product="10L">10-ლიტრიანი აპარატის დაქირავება</a>
             </div>
           </article>
         </div>
@@ -239,40 +370,41 @@
     <section class="section section-alt" id="faq">
       <div class="container">
         <div class="section-head">
-          <div class="eyebrow" data-i18n="faq.eyebrow">FAQ</div>
-          <h2 data-i18n="page.qiraoba.faqTitle">ხშირი კითხვები გაქირავებაზე</h2>
+          <div class="eyebrow">FAQ</div>
+          <h2>ხშირი კითხვები გაქირავებაზე</h2>
         </div>
         <div class="faq-list">
           <article class="faq-item open">
             <button class="faq-question" type="button" aria-expanded="true">
-              <span data-i18n="faq.qPrice">რა ღირს ჟანგბადის აპარატის გაქირავება?</span>
+              <span>რა ღირს ჟანგბადის აპარატის გაქირავება?</span>
               <span class="chevron" aria-hidden="true">▾</span>
             </button>
-            <div class="faq-answer" data-i18n="faq.aPrice">5-ლიტრიანი აპარატის გაქირავება 10 ლარი დღეში, 10-ლიტრიანი — 15 ლარი დღეში. მოყვება საჭირო აქსესუარები.</div>
+            <div class="faq-answer">5-ლიტრიანი აპარატის გაქირავება 10 ლარი დღეში, 10-ლიტრიანი — 15 ლარი დღეში. მოყვება საჭირო აქსესუარები.</div>
           </article>
           <article class="faq-item">
             <button class="faq-question" type="button" aria-expanded="false">
-              <span data-i18n="faq.q1">აპარატს ადგილზე მოიტანთ?</span>
+              <span>აპარატს ადგილზე მოიტანთ?</span>
               <span class="chevron" aria-hidden="true">▾</span>
             </button>
-            <div class="faq-answer" data-i18n="faq.a1">დიახ. თბილისში შესაძლებელია ჟანგბადის აპარატის ადგილზე მიტანა და დამონტაჟება.</div>
+            <div class="faq-answer">დიახ. თბილისში შესაძლებელია ჟანგბადის აპარატის ადგილზე მიტანა და დამონტაჟება.</div>
           </article>
           <article class="faq-item">
             <button class="faq-question" type="button" aria-expanded="false">
-              <span data-i18n="faq.q4">რას მოყვება გაქირავებულ აპარატს?</span>
+              <span>რას მოყვება გაქირავებულ აპარატს?</span>
               <span class="chevron" aria-hidden="true">▾</span>
             </button>
-            <div class="faq-answer" data-i18n="faq.a4">აპარატთან ერთად მიიღებთ სატურატორს, კანულას, ნიღაბს, გამოხდილ წყალსა და საჭირო აქსესუარებს.</div>
+            <div class="faq-answer">აპარატთან ერთად მიიღებთ სატურატორს, კანულას, ნიღაბს, გამოხდილ წყალსა და საჭირო აქსესუარებს.</div>
           </article>
           <article class="faq-item">
             <button class="faq-question" type="button" aria-expanded="false">
-              <span data-i18n="faq.q6">რომელი აპარატი მჭირდება — 5 თუ 10 ლიტრიანი?</span>
+              <span>რომელი აპარატი მჭირდება — 5 თუ 10 ლიტრიანი?</span>
               <span class="chevron" aria-hidden="true">▾</span>
             </button>
-            <div class="faq-answer" data-i18n="faq.a6">შესაბამისი მოწყობილობა და ჟანგბადის ნაკადის პარამეტრები უნდა შეირჩეს ექიმის რეკომენდაციის შესაბამისად.</div>
+            <div class="faq-answer">შესაბამისი მოწყობილობა და ჟანგბადის ნაკადის პარამეტრები უნდა შეირჩეს ექიმის რეკომენდაციის შესაბამისად.</div>
           </article>
         </div>
-        <p class="center mt-2"><a href="/gayidva/" data-i18n="page.qiraoba.toSales">გჭირდებათ აპარატის შეძენა? იხილეთ გაყიდვა →</a></p>
+        <p class="center mt-2"><a href="/gayidva/">გჭირდებათ აპარატის შეძენა? იხილეთ გაყიდვა →</a></p>
+        <p class="center"><a href="/pirebebi/">გაქირავების პირობები</a> · <a href="/tsodna/5-da-10-litri/">5 და 10 ლიტრი: როგორ შევარჩიოთ</a> · <a href="/tsodna/mitana-tbilisshi/">მიტანა თბილისში</a> · <a href="/kitkhvebi/">ყველა კითხვა</a></p>
       </div>
     </section>
 
@@ -280,12 +412,12 @@
       <div class="container">
         <div class="cta-band">
           <div>
-            <h2 data-i18n="page.qiraoba.ctaTitle">გჭირდებათ ჟანგბადის აპარატი დღესვე?</h2>
-            <p data-i18n="page.qiraoba.ctaText">დაგვირეკეთ ან მოგვწერეთ — შეგირჩევთ აპარატს და შეგათანხმებთ მიტანის დროს თბილისში.</p>
+            <h2>გჭირდებათ ჟანგბადის აპარატი დღესვე?</h2>
+            <p>დაგვირეკეთ ან მოგვწერეთ — შეგირჩევთ აპარატს და შეგათანხმებთ მიტანის დროს თბილისში.</p>
           </div>
           <div class="cta-phones">
-            <a href="tel:+995592155499">592 15 54 99</a>
-            <a href="tel:+995544441240">544 44 12 40</a>
+            <a href="tel:+995592155499" data-track="tel">592 15 54 99</a>
+            <a href="tel:+995544441240" data-track="tel">544 44 12 40</a>
           </div>
         </div>
       </div>
@@ -294,39 +426,67 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="footer-grid">
+      <div class="footer-grid footer-grid-4">
         <div class="footer-brand">
           <strong>Jangbadisaparati.ge</strong>
-          <p data-i18n="footer.tag">ჟანგბადის აპარატების გაქირავება და გაყიდვა თბილისში</p>
-          <p data-i18n="footer.services">ადგილზე მიტანა • დამონტაჟება • 24/7 მხარდაჭერა</p>
-        </div>
-        <div>
-          <h3 data-i18n="footer.nav">ნავიგაცია</h3>
-          <div class="footer-links">
-            <a href="/">მთავარი</a>
-            <a href="/qiraoba/" data-i18n="nav.rental">გაქირავება</a>
-            <a href="/gayidva/" data-i18n="nav.sales">გაყიდვა</a>
-            <a href="/#contact" data-i18n="nav.contact">კონტაქტი</a>
+          <p>ჟანგბადის აპარატების გაქირავება და გაყიდვა თბილისში</p>
+          <p>ადგილზე მიტანა • დამონტაჟება • 24/7 მხარდაჭერა</p>
+          <p class="footer-follow">გამოგვყევით</p>
+          <div class="social-links">
+            <a class="social-link social-tiktok" href="https://www.tiktok.com/@jangbadis" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.6 8.5a6.6 6.6 0 0 1-3.9-1.3v6.5a5.9 5.9 0 1 1-5.1-5.8v2.7a3.2 3.2 0 1 0 2.3 3.1V2.5h2.7a6.6 6.6 0 0 0 4 4.2v1.8z"/></svg>
+              <span>TikTok</span>
+            </a>
+            <a class="social-link social-facebook" href="https://www.facebook.com/profile.php?id=100063621636222" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 9h3V6h-3c-1.9 0-3.5 1.6-3.5 3.5V12H8v3h2.5v7h3v-7H16l.5-3H13.5v-2c0-.6.4-1 1-1z"/></svg>
+              <span>Facebook</span>
+            </a>
           </div>
         </div>
         <div>
-          <h3 data-i18n="footer.contact">კონტაქტი</h3>
+          <h3>ნავიგაცია</h3>
           <div class="footer-links">
-            <a href="tel:+995592155499">592 15 54 99</a>
-            <a href="tel:+995544441240">544 44 12 40</a>
+            <a href="/">მთავარი</a>
+            <a href="/qiraoba/">გაქირავება</a>
+            <a href="/gayidva/">გაყიდვა</a>
+            <a href="/qiraoba/5-litri/">5-ლიტრიანის გაქირავება</a>
+            <a href="/qiraoba/10-litri/">10-ლიტრიანის გაქირავება</a>
+            <a href="/gayidva/5-litri/">5-ლიტრიანის ყიდვა</a>
+            <a href="/gayidva/10-litri/">10-ლიტრიანის ყიდვა</a>
+          </div>
+        </div>
+        <div>
+          <h3>ინფორმაცია</h3>
+          <div class="footer-links">
+            <a href="/pirebebi/">პირობები</a>
+            <a href="/garantia/">გარანტია</a>
+            <a href="/tsodna/">ცოდნის ცენტრი</a>
+            <a href="/kitkhvebi/">ხშირი კითხვები</a>
+            <a href="/shesakheb/">ჩვენ შესახებ</a>
+            <a href="/en/rental/" hreflang="en" lang="en">English</a>
+          </div>
+        </div>
+        <div>
+          <h3>კონტაქტი</h3>
+          <div class="footer-links">
+            <a href="tel:+995592155499" data-track="tel">592 15 54 99</a>
+            <a href="tel:+995544441240" data-track="tel">544 44 12 40</a>
+            <span class="footer-address">კორპუსი 1, ვაზისუბნის დასახლება, თბილისი 0153, საქართველო</span>
+            <a href="https://maps.app.goo.gl/yMm9imYZGB4CaDfPA" target="_blank" rel="noopener noreferrer">ნახეთ რუკაზე</a>
+            <a href="/kontakti/">კონტაქტის გვერდი</a>
           </div>
         </div>
       </div>
-      <div class="footer-warning" data-i18n="footer.warning">სამედიცინო გაფრთხილება: საიტზე განთავსებული ინფორმაცია არის საინფორმაციო ხასიათის და არ ცვლის ექიმის კონსულტაციას. ჟანგბადის თერაპია და ჟანგბადის ნაკადის პარამეტრები გამოიყენეთ ექიმის დანიშნულების შესაბამისად.</div>
-      <div class="footer-copy" data-i18n="footer.copy">© Jangbadisaparati.ge — ყველა უფლება დაცულია</div>
+      <div class="footer-warning">სამედიცინო გაფრთხილება: საიტზე განთავსებული ინფორმაცია არის საინფორმაციო ხასიათის და არ ცვლის ექიმის კონსულტაციას. ჟანგბადის თერაპია და ჟანგბადის ნაკადის პარამეტრები გამოიყენეთ ექიმის დანიშნულების შესაბამისად.</div>
+      <div class="footer-copy">© Jangbadisaparati.ge — ყველა უფლება დაცულია</div>
     </div>
   </footer>
 
-  <div class="mobile-cta" aria-label="Contact actions">
-    <a class="btn btn-primary" href="tel:+995592155499" data-i18n="btn.call">დარეკვა</a>
-    <a class="btn btn-whatsapp" data-wa="general" data-wa-ka="გამარჯობა, მაინტერესებს ჟანგბადის აპარატის გაქირავება თბილისში." href="https://wa.me/995592155499" target="_blank" rel="noopener" data-i18n="btn.whatsapp">WhatsApp-ზე მოწერა</a>
+  <div class="mobile-cta" role="group" aria-label="კონტაქტი">
+    <a class="btn btn-primary" href="tel:+995592155499" data-track="tel">დარეკვა</a>
+    <a class="btn btn-whatsapp" href="https://wa.me/995592155499?text=%E1%83%92%E1%83%90%E1%83%9B%E1%83%90%E1%83%A0%E1%83%AF%E1%83%9D%E1%83%91%E1%83%90%2C%20%E1%83%9B%E1%83%90%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%A0%E1%83%94%E1%83%A1%E1%83%94%E1%83%91%E1%83%A1%20%E1%83%9F%E1%83%90%E1%83%9C%E1%83%92%E1%83%91%E1%83%90%E1%83%93%E1%83%98%E1%83%A1%20%E1%83%90%E1%83%9E%E1%83%90%E1%83%A0%E1%83%90%E1%83%A2%E1%83%98%E1%83%A1%20%E1%83%92%E1%83%90%E1%83%A5%E1%83%98%E1%83%A0%E1%83%90%E1%83%95%E1%83%94%E1%83%91%E1%83%90%20%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%A8%E1%83%98." target="_blank" rel="noopener" data-track="whatsapp" data-channel="whatsapp">WhatsApp-ზე მოწერა</a>
   </div>
 
-  <script src="../js/main.js"></script>
+  <script src="../js/site.js"></script>
 </body>
 </html>

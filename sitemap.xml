@@ -1,18 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jangbadisaparati.ge/</loc>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/en/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/" />
   </url>
   <url>
     <loc>https://jangbadisaparati.ge/qiraoba/</loc>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/qiraoba/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/rental/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/qiraoba/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/en/rental/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/qiraoba/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/rental/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/qiraoba/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/qiraoba/5-litri/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/qiraoba/5-litri/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/rental/5-liter/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/qiraoba/5-litri/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/en/rental/5-liter/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/qiraoba/5-litri/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/rental/5-liter/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/qiraoba/5-litri/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/qiraoba/10-litri/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/qiraoba/10-litri/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/rental/10-liter/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/qiraoba/10-litri/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/en/rental/10-liter/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/qiraoba/10-litri/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/rental/10-liter/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/qiraoba/10-litri/" />
   </url>
   <url>
     <loc>https://jangbadisaparati.ge/gayidva/</loc>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/gayidva/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/sales/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/gayidva/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/en/sales/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/gayidva/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/sales/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/gayidva/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/gayidva/5-litri/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/gayidva/5-litri/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/sales/5-liter/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/gayidva/5-litri/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/en/sales/5-liter/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/gayidva/5-litri/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/sales/5-liter/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/gayidva/5-litri/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/gayidva/10-litri/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/gayidva/10-litri/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/sales/10-liter/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/gayidva/10-litri/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/en/sales/10-liter/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/gayidva/10-litri/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/sales/10-liter/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/gayidva/10-litri/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/tsodna/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/tsodna/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/knowledge/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/tsodna/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/en/knowledge/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/tsodna/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/knowledge/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/tsodna/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/tsodna/ra-aris-jangbadis-kontsentratori/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/tsodna/5-da-10-litri/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/tsodna/gakiraveba-tu-yidva/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/tsodna/mitana-tbilisshi/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/kitkhvebi/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/kitkhvebi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/kitkhvebi/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/en/faq/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/kitkhvebi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/kitkhvebi/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/shesakheb/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/shesakheb/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/shesakheb/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/en/about/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/shesakheb/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/shesakheb/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/kontakti/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/kontakti/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/kontakti/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/en/contact/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://jangbadisaparati.ge/kontakti/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jangbadisaparati.ge/en/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jangbadisaparati.ge/kontakti/" />
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/pirebebi/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jangbadisaparati.ge/garantia/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
